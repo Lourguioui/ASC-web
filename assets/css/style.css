@@ -51,7 +51,11 @@ body {
 img {
     max-width: 100%;
 }
-
+h1{
+    font-family : "GILROY", sans-serif !important;
+    font-size:  52pt !important;
+    font-weight:  BOLD !important;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Dosis", sans-serif;
     color: #273f5b;
@@ -285,6 +289,7 @@ section.video-app {
     .dino-event-col.mt-5 {
         margin-top: 2rem !important;
     }
+
 
     /*=======================================================
       Product Template Responsive
@@ -978,6 +983,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .navbar-nav > .nav-item > .nav-link {
+    color : white;
     text-transform: uppercase;
     font-family: "Dosis", sans-serif;
     font-weight: 600;
@@ -1142,8 +1148,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .header-shadow {
-    -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.1);
-    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
 }
 
 @media (max-width: 991px) {
@@ -6063,6 +6069,12 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .color-primary {
     color: #0081FF !important;
 }
+h1 .text-primary{
+    font-family : "GILROY", sans-serif !important;
+    font-size:  52pt !important;
+    font-weight:  BOLD !important;
+    color : #BA16BF !important;
+}
 
 .text-muted {
     color: #7b8697 !important;
@@ -6112,7 +6124,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .bg-gray-v2 {
-    background: #ECF5FE;
+    background: #1A3E7B;
+    
 }
 
 .bg-gray-v3 {
@@ -7734,7 +7747,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     background-image: -webkit-gradient(linear, left top, right top, from(#8B3AC6), to(#4D3399));
     background-image: linear-gradient(to right, #8B3AC6 0%, #4D3399 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8B3AC6', endColorstr='#FF4D3399', GradientType=1);
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8B3AC6', endColorstr='#FF4D3399', GradientType=1); */
 }
 
 .hero-app {
@@ -7798,9 +7811,14 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .startup-hero {
-    background: #ECF5FE url(../img/startup/hero-banner.png) no-repeat;
+    /*background:  url(../img/startup/bg-hero.svg) no-repeat;*/
     background-size: cover;
     background-position: top center;
+}
+#hero-tit{
+    font-family: "GILROY", sans-serif;
+    font-size:  42 pt;
+    font-weight:  lighter;
 }
 
 .startup-statistics {
