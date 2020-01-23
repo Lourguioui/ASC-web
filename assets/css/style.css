@@ -134,10 +134,13 @@ sub {
 }
 
 section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 210px;
+    padding-bottom: 210px;
     position: relative;
     z-index: 10;
+}
+section .startup-hero{
+    padding-top: 120px !important;
 }
 
 section.video-app {
@@ -548,6 +551,10 @@ section.video-app {
     .dino-startup .footer-startup section {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+  
+    .hero{
+        padding-top: 100px !important;
     }
 
     .startup-hero {
@@ -1250,10 +1257,11 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     -o-transition: .3s;
     transition: .3s;
     text-transform: capitalize;
-    font-family: "Dosis", sans-serif;
-    font-weight: 600;
-    font-size: 18px !important;
+    font-family: "GILROY", sans-serif;
+    font-weight: lighter;
+    /* font-size: 18px !important; */
     padding: 0.6125rem 2rem 0.8125rem 2rem;
+    text-align: centera;
 }
 
 .btn:focus {
@@ -1266,16 +1274,20 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .btn-primary {
-    background: #0081FF;
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 129, 255, 0.3);
-    box-shadow: 0 5px 40px 0 rgba(0, 129, 255, 0.3);
+    background: linear-gradient(to right, rgba(255,19,41,1), rgba(26,62,123,1));
+    -webkit-box-shadow: 0 5px 40px 0 rgba(226, 17,233, 0.5);
+    box-shadow: 0 5px 40px 0 rgba(226, 17,233, 0.5);
     color: #fff;
+    border: none;
+    transition: 0.7s !important;
 }
 
 .btn-primary:hover {
-    background: #0074e6;
+    /* background: linear-gradient(to left, rgba(186,22,191,1), rgba(253,203,64,1)); */
+    
     -webkit-box-shadow: none;
     box-shadow: none;
+    transition: 0.7s !important;
 }
 
 .btn-white {
@@ -2429,10 +2441,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .u-w-140 {
     width: 8.75rem !important;
 }
-
+/* 
 .u-w-150 {
     width: 9.375rem !important;
-}
+} */
 
 .u-w-160 {
     width: 10rem !important;
@@ -6551,10 +6563,10 @@ h1 .text-primary{
 .u-mt-10 {
     margin-top: 0.625rem !important;
 }
-
+/* 
 .u-mt-15 {
     margin-top: 0.9375rem !important;
-}
+} */
 
 .u-mt-20 {
     margin-top: 1.25rem !important;
@@ -7811,9 +7823,11 @@ h1 .text-primary{
 }
 
 .startup-hero {
-    /*background:  url(../img/startup/bg-hero.svg) no-repeat;*/
-    background-size: cover;
-    background-position: top center;
+    background:url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.svg);
+    background-size: contain, cover;
+    background-position:  center, center;
+    background-repeat : no-repeat, repeat-y;
+   
 }
 #hero-tit{
     font-family: "GILROY", sans-serif;
