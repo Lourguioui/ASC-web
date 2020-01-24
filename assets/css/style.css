@@ -783,10 +783,13 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 /*=======================================================
     Objectifs style and responsiv
 ======================================================== */
+.objectif{
+
+}
 .objectif .col-lg-8{
     padding-top: 40px;
 }
-.objectif .col
+
 @media only screen and (max-width: 992px){
     .objectif .col-lg-8{
             margin-top: -200px;
