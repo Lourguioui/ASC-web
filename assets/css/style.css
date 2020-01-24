@@ -784,11 +784,19 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     Objectifs style and responsiv
 ======================================================== */
 .objectif .col-lg-8{
-    style="padding-top: 20px;
+    padding-top: 40px;
 }
+.objectif .col
 @media only screen and (max-width: 992px){
     .objectif .col-lg-8{
-            padding-top: 5px;
+            margin-top: -200px;
+    }
+    .objectif .obj-3{
+        margin-top: 0px;
+    }
+    .objectif .col-lg-4 img {
+        width : auto;
+        height: auto;
     }
 }
 /*=======================================================
