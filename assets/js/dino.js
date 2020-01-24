@@ -11,6 +11,16 @@
     $(window).on("load", function () {
         $("#loading").fadeOut(500);
     });
+    $('.startup-hero').mousemove(function(v){
+        var moveX = (v.pageX * -1/ 80);
+        var moveY = (v.pageY * -1 / 80); 
+        $(this).css('background-position', moveX + 'px ' + moveY + 'px ' + ', center');
+    });
+    $('#about').mousemove(function(e){
+        var moveX = (e.pageX * -1 / 120);
+        var moveY = (e.pageY * -1 / 120);
+        $(this).css('background-position', moveX + "px " + moveY + 'px');
+    })
     var dino = {
         // Inverse header background when scroll
         hederInverse: function () {
