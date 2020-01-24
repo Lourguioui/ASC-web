@@ -570,7 +570,7 @@ section.video-app {
         text-align: center;
     }
     .dino-startup .about{
-        background:url(../img/startup/bg-about.png), #EFEDED;
+        background:url(.assets/img/startup/bg-about.png);
         background-size: cover,cover;
         background-position: center , center;
         background-repeat : no-repeat,repeat-y;
@@ -780,7 +780,17 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         opacity: 0.0;
     }
 }
-
+/*=======================================================
+    Objectifs style and responsiv
+======================================================== */
+.objectif .col-lg-8{
+    style="padding-top: 20px;
+}
+@media only screen and (max-width: 992px){
+    .objectif .col-lg-8{
+            padding-top: 5px;
+    }
+}
 /*=======================================================
   02. Start Hamburger
 ========================================================*/
@@ -6087,6 +6097,9 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 .bg-primary {
     background: #BA16BF !important;
+    width: 100px !important;
+    height: 5px !important;
+    border-radius: 25%;
 }
 
 .bg-dark {
