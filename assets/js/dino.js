@@ -66,7 +66,10 @@
     }
     $window.on('scroll', check_in_view);
     $window.trigger('scroll');
+/*============================ end objectifs animations ================================*/
 
+/*============================= mobile cards ==========================================*/
+/*=====================================================================================*/
     
     var dino = {
         // Inverse header background when scroll
