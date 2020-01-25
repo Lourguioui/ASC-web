@@ -22,24 +22,52 @@
         var moveX = (e.pageX * -1 / 120);
         var moveY = (e.pageY * -1 / 120);
         $(this).css('background-position', moveX + "px " + moveY + 'px');
-    })
+    });
     /*==================== end background animation =========================*/
 
     /*========================= objectifs animation =========================*/
     /*=======================================================================*/
+                /*====================== left ==========================*/
     var $animation_element = $(".animated-element-left");
+    var $animation_element_right = $(".animated-element-right");
     var $window = $(window);
-    function chek_in_view(){
+    function check_in_view(){
         var $window_height = $window.height();
         var $window_top_position = $window.scrollTop();
         var $window_bottom_position = ($window_top_position + $window_height);
-        $.each(animlation-element, function (){
+        $.each($animation_element, function (){
             var $element = $(this);
             var $element_height = $element.outerHeight();
             var $element_top_position = $element.offset().top;
-            
+            var $element_bottom_position = ($element_height + $element_top_position);
+            console.log($element_bottom_position)
+            if(($element_bottom_position >= $window_top_position) && ($element_top_position <= $window_bottom_position)){
+                    $element.animate({left : '220px',opacity : '1'}, "slow");
+                   
+                    
+            }else{
+                // $element.animate({right : "200px",opacity : 'O'}, "slow");
+            }
+        })
+        $.each($animation_element_right, function (){
+            var $element = $(this);
+            var $element_height = $element.outerHeight();
+            var $element_top_position = $element.offset().top;
+            var $element_bottom_position = ($element_height + $element_top_position);
+            console.log($element_bottom_position)
+            if(($element_bottom_position >= $window_top_position) && ($element_top_position <= $window_bottom_position)){
+                    $element.animate({right : '0px',opacity : '1'}, "slow");
+                   
+                    
+            }else{
+                // $element.animate({right : "200px",opacity : 'O'}, "slow");
+            }
         })
     }
+    $window.on('scroll', check_in_view);
+    $window.trigger('scroll');
+
+    
     var dino = {
         // Inverse header background when scroll
         hederInverse: function () {

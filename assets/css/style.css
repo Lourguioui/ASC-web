@@ -794,6 +794,16 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .objectif .obj-4{
     margin-top: 20px;
 }
+.objectif.animated-element-left{
+    opacity: 0;
+    margin-left : -200px;
+    
+}
+.objectif.animated-element-right{
+    opacity: 0;
+    right : 100px;
+}
+
 @media only screen and (max-width: 992px){
     .objectif .col-lg-8{
             margin-top: -200px;
