@@ -11,16 +11,35 @@
     $(window).on("load", function () {
         $("#loading").fadeOut(500);
     });
+    /* ============= backgroun d animation =====================*/
+    // ==========================================================
     $('.startup-hero').mousemove(function(v){
-        var moveX = (v.pageX * -1/ 80);
-        var moveY = (v.pageY * -1 / 80); 
+        var moveX = (v.pageX * -1/ 60);
+        var moveY = (v.pageY * -1 / 60); 
         $(this).css('background-position', moveX + 'px ' + moveY + 'px ' + ', center');
     });
-    $('#about').mousemove(function(e){
+    $('.animated-bg').mousemove(function(e){
         var moveX = (e.pageX * -1 / 120);
         var moveY = (e.pageY * -1 / 120);
         $(this).css('background-position', moveX + "px " + moveY + 'px');
     })
+    /*==================== end background animation =========================*/
+
+    /*========================= objectifs animation =========================*/
+    /*=======================================================================*/
+    var $animation_element = $(".animated-element-left");
+    var $window = $(window);
+    function chek_in_view(){
+        var $window_height = $window.height();
+        var $window_top_position = $window.scrollTop();
+        var $window_bottom_position = ($window_top_position + $window_height);
+        $.each(animlation-element, function (){
+            var $element = $(this);
+            var $element_height = $element.outerHeight();
+            var $element_top_position = $element.offset().top;
+            
+        })
+    }
     var dino = {
         // Inverse header background when scroll
         hederInverse: function () {
