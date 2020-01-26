@@ -793,6 +793,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     border-radius: 5px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
     text-align: center;
+    bottom : 0; 
+    height : min-content;
     
 }
 .objectif:hover {
@@ -807,20 +809,25 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     font-weight: lighter;
     padding-top: 30px;
 }
-.objectif .obj-1{
+.objectif.obj-1{
+    margin-top: 10px;
+    font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.objectif.obj-2{
     margin-top: 10px;
 }
-.objectif .obj-2{
-    margin-top: 10px;
+.objectif.obj-3{
+    margin-top: 20px;
 }
-.objectif .obj-3{
+.objectif.obj-4{
     margin-top: 10px;
+    
 }
-.objectif .obj-4{
+.objectif.obj-5{
     margin-top: 10px;
-}
-.objectif .obj-5{
-    margin-top: 10px;
+    padding-bottom: 20px;
 }
 .objectif.animated-element-left{
     opacity: 0;
@@ -839,16 +846,16 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         margin-right: 20px;
     }
     .objectif .col-lg-8{
-            margin-top: -200px;
+            /* margin-top: -200px; */
     }
     .objectif .obj-3{
         margin-top: 0px;
     }
     .objectif .obj-4{
-        padding-top: 140px;
+        margin-top: -100px;
     }
     .objectif .obj-5{
-        padding-top: 140px;
+      margin-top: -100px;
         
     }
     .objectif .col-lg-4 img {
