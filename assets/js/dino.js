@@ -42,7 +42,7 @@
             var $element_bottom_position = ($element_height + $element_top_position);
             console.log($element_bottom_position)
             if(($element_bottom_position >= $window_top_position) && ($element_top_position <= $window_bottom_position)){
-                    $element.animate({left : '220px',opacity : '1'}, "slow");
+                    $element.animate({left : '0px',opacity : '1'}, "slow");
                    
                     
             }else{
@@ -67,7 +67,46 @@
     $window.on('scroll', check_in_view);
     $window.trigger('scroll');
 /*============================ end objectifs animations ================================*/
+    /*============================= thematique animations ===============================*/
 
+   /* var $animation_element_them = $(".them.animated-element-left");
+    var $animation_element_right_them = $(".them.animated-element-right");
+    var $window = $(window);
+    function check_in_view(){
+        var $window_height = $window.height();
+        var $window_top_position = $window.scrollTop();
+        var $window_bottom_position = ($window_top_position + $window_height);
+        $.each($animation_element_them, function (){
+            var $element = $(this);
+            var $element_height = $element.outerHeight();
+            var $element_top_position = $element.offset().top;
+            var $element_bottom_position = ($element_height + $element_top_position);
+            console.log($element_bottom_position)
+            if(($element_bottom_position >= $window_top_position) && ($element_top_position <= $window_bottom_position)){
+                $element.animate({left : '0',opacity : '1'}, "slow");
+
+
+            }else{
+                // $element.animate({right : "200px",opacity : 'O'}, "slow");
+            }
+        })
+        $.each($animation_element_right_them, function (){
+            var $element = $(this);
+            var $element_height = $element.outerHeight();
+            var $element_top_position = $element.offset().top;
+            var $element_bottom_position = ($element_height + $element_top_position);
+            console.log($element_bottom_position)
+            if(($element_bottom_position >= $window_top_position) && ($element_top_position <= $window_bottom_position)){
+                $element.animate({right : ' 0px',opacity : '1'}, "slow");
+
+
+            }else{
+                // $element.animate({right : "200px",opacity : 'O'}, "slow");
+            }
+        })
+    }
+    $window.on('scroll', check_in_view);
+    $window.trigger('scroll');*/
 /*============================= mobile cards ==========================================*/
 /*=====================================================================================*/
     

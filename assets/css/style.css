@@ -831,12 +831,23 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 .objectif.animated-element-left{
     opacity: 0;
-    margin-left : -200px;
+    left : -200px;
     
+}
+.them{
+    margin-bottom: 50px;
+}
+.them.animated-element-left{
+    opacity: 0;
+    left : -200px;
 }
 .objectif.animated-element-right{
     opacity: 0;
     right : 100px;
+}
+.them.animated-element-right{
+    opacity: 0;
+    right : 150px;
 }
 
 @media only screen and (max-width: 992px){
@@ -862,6 +873,16 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         width : auto;
         height: auto;
     }
+    .them{
+        left : 0px;
+    }
+}
+/*=============================== Thématique=====================================*/
+.them{
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    text-align: center;
 }
 /*=======================================================
   02. Start Hamburger
@@ -1593,7 +1614,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .tabs-v3 .nav-link.active {
-    background: #0081FF;
+    background: #1A3E7B;
     border-color: transparent;
     color: #fff;
 }
@@ -6186,6 +6207,9 @@ h1 .text-primary{
     font-family : "GILROY", sans-serif !important;
     font-size:  52pt !important;
     font-weight:  BOLD !important;
+    color : #BA16BF !important;
+}
+.text-primary{
     color : #BA16BF !important;
 }
 
