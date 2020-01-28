@@ -796,7 +796,6 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     bottom : 0; 
     height : min-content;
     
-    
 }
 .objectif:hover {
     box-shadow: 0 18px 14px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
@@ -828,7 +827,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 .objectif.obj-5{
     margin-top: 10px;
-   
+    padding-bottom: 20px;
 }
 .objectif.animated-element-left{
     opacity: 0;
