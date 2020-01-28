@@ -7981,8 +7981,18 @@ h1 .text-primary{
 }
 
 .startup-team {
-    background: #ecf5fd url(../img/startup/bg-2.png) no-repeat;
-    background-position: center center;
+
+    background : url("../img/startup/bg-about.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+#work{
+    background : url("../img/startup/bg-about.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .startup-reviews {
