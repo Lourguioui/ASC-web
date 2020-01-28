@@ -58,7 +58,7 @@ h1{
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "GILROY", sans-serif;
-    color: white;
+    color: #20335E;
     line-height: 1.37em;
     font-weight: 600;
 }
@@ -71,7 +71,7 @@ p {
     font-size: 13pt;
     
 }
-.list-unstyled{
+.liste-links{
     color : white;
 }
 
