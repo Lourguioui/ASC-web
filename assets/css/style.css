@@ -58,7 +58,7 @@ h1{
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "GILROY", sans-serif;
-    color: #273f5b;
+    color: white;
     line-height: 1.37em;
     font-weight: 600;
 }
@@ -70,6 +70,9 @@ p {
     font-family: "GILROY", sans-serif;
     font-size: 13pt;
     
+}
+.list-unstyled{
+    color : white;
 }
 
 @media (max-width: 767px) {
@@ -802,7 +805,11 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     bottom: 10px;
     transition: 0.5s;
 }
-
+.them:hover{
+    box-shadow: 0 18px 14px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    bottom: 10px;
+    transition: 0.5s;
+}
 .objectif .col-lg-8{
     font-family: "GILROY", sans-serif;
     font-size: 15pt;
@@ -834,8 +841,19 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     left : -200px;
     
 }
+.thematiques{
+    margin-right: 10px;
+    margin-left: 12px;
+}
 .them{
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    text-align: center;
     margin-bottom: 50px;
+    bottom: 0;
+    height : min-content;
+
 }
 .them.animated-element-left{
     opacity: 0;
@@ -866,7 +884,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         margin-top: -100px;
     }
     .objectif .obj-5{
-      margin-top: -100px;
+      margin-top: -90px;
         
     }
     .objectif .col-lg-4 img {
@@ -879,10 +897,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 /*=============================== Thématique=====================================*/
 .them{
-    background: rgba(255,255,255,0.5);
-    border-radius: 5px;
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    text-align: center;
+
 }
 /*=======================================================
   02. Start Hamburger
@@ -1080,8 +1095,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 ========================================================*/
 
 .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
