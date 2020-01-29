@@ -15,7 +15,7 @@
     // ==========================================================
     $('.startup-hero').mousemove(function(v){
         var moveX = (v.pageX * -1/ 2000);
-        var moveY = (v.pageY * -1 / 60); 
+        var moveY = (v.pageY * -1 / 40); 
         $(this).css('background-position', moveX + 'px ' + moveY + 'px ' + ', center');
     });
     $('.animated-bg').mousemove(function(e){

@@ -6233,7 +6233,9 @@ h1 .text-primary{
     font-weight:  BOLD !important;
     color : #000000 !important;
     color:#000000;
-    margin-left: -100px;}
+    margin-left: -110px;
+margin-top: -30px;
+}
 .text-primary{
     color : #BA16BF !important;
 }
@@ -8056,4 +8058,13 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
 /**************************************/
 #logo_style{
   width: auto; height: auto; padding: 0px;
+}
+#button_style{
+    font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: white;
+    margin-left: -150px;
+        background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+  
 }
