@@ -1122,6 +1122,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     margin-left: 15px;
 }
 
+
 .navbar-nav > .nav-item > .nav-link {
     color : white;
     text-transform: uppercase;
@@ -1131,6 +1132,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 /*    font-weight: 600; */   
  font-size: 15px;
 }
+
 
 .navbar-toggler {
     color: #fff;
@@ -2935,7 +2937,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .u-fw-600 {
-    font-weight: 600;
+    font-weight: 550;
 }
 
 .u-fw-700 {
@@ -8041,4 +8043,8 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
 .event-contact {
     background: url(../img/event/bg-2.jpg) no-repeat;
     background-size: cover;
+}
+/**************************************/
+#logo_style{
+  width: auto; height: auto; padding: 0px;
 }
