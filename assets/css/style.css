@@ -2937,7 +2937,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .u-fw-600 {
-    font-weight: 550;
+    font-weight: 400;
 }
 
 .u-fw-700 {
@@ -6228,6 +6228,12 @@ h1 .text-primary{
     font-weight:  BOLD !important;
     color : #BA16BF !important;
 }
+#hero_section_title{
+     font-family : "GILROY", sans-serif !important;
+    font-weight:  BOLD !important;
+    color : #000000 !important;
+    color:#000000;
+    margin-left: -100px;}
 .text-primary{
     color : #BA16BF !important;
 }
@@ -7976,9 +7982,12 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
    
 }
 #hero-tit{
-    font-family: "GILROY", sans-serif;
-    font-size:  42 pt;
-    font-weight:  lighter;
+    font-family : "GILROY", sans-serif !important;
+    font-weight:  LIGHT !important; 
+ font-size: 15px;
+ text-align: center;
+ margin-left: -100px;
+
 }
 
 .startup-statistics {
