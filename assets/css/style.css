@@ -1125,9 +1125,11 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .navbar-nav > .nav-item > .nav-link {
     color : white;
     text-transform: uppercase;
-    font-family: "Dosis", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
+   /* font-family: "Dosis", sans-serif;*/
+        font-family : "GILROY", sans-serif !important;
+    font-weight:  LIGHT !important;
+/*    font-weight: 600; */   
+ font-size: 15px;
 }
 
 .navbar-toggler {
@@ -1288,8 +1290,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .header-shadow {
-    -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
-    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+  /*  -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);*/
 }
 
 @media (max-width: 991px) {
@@ -6276,8 +6278,9 @@ h1 .text-primary{
 }
 
 .bg-gray-v2 {
-    background: #1A3E7B;
-    
+/*background: #ff0000;*/    
+background: rgb(26,62,123);
+background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
 }
 
 .bg-gray-v3 {
@@ -7963,7 +7966,8 @@ h1 .text-primary{
 }
 
 .startup-hero {
-    background: url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.png);
+/*    background: url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.png);*/
+ background:  url(../img/background/rockets2.png),url(../img/background/bg.png);
     background-size:cover, cover;
     background-position:center,  center;
     background-repeat :no-repeat, no-repeat;

@@ -14,7 +14,7 @@
     /* ============= backgroun d animation =====================*/
     // ==========================================================
     $('.startup-hero').mousemove(function(v){
-        var moveX = (v.pageX * -1/ 60);
+        var moveX = (v.pageX * -1/ 2000);
         var moveY = (v.pageY * -1 / 60); 
         $(this).css('background-position', moveX + 'px ' + moveY + 'px ' + ', center');
     });
