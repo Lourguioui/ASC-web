@@ -6184,8 +6184,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #FFAD00 !important;
 }
 
-.text-green {
-    color: #2CD44A !important;
+.text-pink {
+    color: #BA16BF!important;
 }
 
 .text-red {
@@ -7674,6 +7674,7 @@ h1 .text-primary{
 
 .card {
     border: none !important;
+
 }
 
 .tab__slider > .tab-pane {
@@ -7976,16 +7977,16 @@ h1 .text-primary{
 }
 
 .startup-statistics {
-    background: #273f5b url(../img/startup/bg-1.png) no-repeat;
+    background: #273f5b url(../img/startup/bg-about.png) no-repeat;
     background-position: center center;
 }
 
 .startup-team {
 
-    background : url("../img/startup/bg-about.png");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: contain;
+    background : url("../img/startup/bg-about.png"),#F7F7F7;
+    background-position: top,center;
+    background-repeat: repeat,repeat;
+    background-size: cover,cover;
 
 }
 #work{
