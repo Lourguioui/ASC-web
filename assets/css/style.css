@@ -6233,8 +6233,9 @@ h1 .text-primary{
     font-weight:  BOLD !important;
     color : #000000 !important;
     color:#000000;
-    margin-left: -110px;
+    margin-left: -140px;
 margin-top: -30px;
+
 }
 .text-primary{
     color : #BA16BF !important;
@@ -7988,7 +7989,7 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
     font-weight:  LIGHT !important; 
  font-size: 15px;
  text-align: center;
- margin-left: -100px;
+ margin-left: -120px;
 
 }
 
