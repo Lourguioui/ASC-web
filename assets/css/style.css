@@ -1122,13 +1122,17 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     margin-left: 15px;
 }
 
+
 .navbar-nav > .nav-item > .nav-link {
     color : white;
     text-transform: uppercase;
-    font-family: "Dosis", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
+   /* font-family: "Dosis", sans-serif;*/
+        font-family : "GILROY", sans-serif !important;
+    font-weight:  LIGHT !important;
+/*    font-weight: 600; */   
+ font-size: 15px;
 }
+
 
 .navbar-toggler {
     color: #fff;
@@ -1288,8 +1292,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .header-shadow {
-    -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
-    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+  /*  -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);*/
 }
 
 @media (max-width: 991px) {
@@ -2933,7 +2937,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .u-fw-600 {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .u-fw-700 {
@@ -6224,6 +6228,15 @@ h1 .text-primary{
     font-weight:  BOLD !important;
     color : #BA16BF !important;
 }
+#hero_section_title{
+     font-family : "GILROY", sans-serif !important;
+    font-weight:  BOLD !important;
+    color : #000000 !important;
+    color:#000000;
+    margin-left: -140px;
+margin-top: -30px;
+
+}
 .text-primary{
     color : #BA16BF !important;
 }
@@ -6276,8 +6289,9 @@ h1 .text-primary{
 }
 
 .bg-gray-v2 {
-    background: #1A3E7B;
-    
+/*background: #ff0000;*/    
+background: rgb(26,62,123);
+background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
 }
 
 .bg-gray-v3 {
@@ -7963,16 +7977,20 @@ h1 .text-primary{
 }
 
 .startup-hero {
-    background: url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.png);
+/*    background: url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.png);*/
+ background:  url(../img/background/rockets2.png),url(../img/background/bg.png);
     background-size:cover, cover;
     background-position:center,  center;
     background-repeat :no-repeat, no-repeat;
    
 }
 #hero-tit{
-    font-family: "GILROY", sans-serif;
-    font-size:  42 pt;
-    font-weight:  lighter;
+    font-family : "GILROY", sans-serif !important;
+    font-weight:  LIGHT !important; 
+ font-size: 15px;
+ text-align: center;
+ margin-left: -120px;
+
 }
 
 .startup-statistics {
@@ -8037,4 +8055,17 @@ h1 .text-primary{
 .event-contact {
     background: url(../img/event/bg-2.jpg) no-repeat;
     background-size: cover;
+}
+/**************************************/
+#logo_style{
+  width: auto; height: auto; padding: 0px;
+}
+#button_style{
+    font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: white;
+    margin-left: -150px;
+        background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+  
 }
