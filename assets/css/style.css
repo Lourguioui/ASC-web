@@ -6233,8 +6233,6 @@ h1 .text-primary{
     font-weight:  BOLD !important;
     color : #000000 !important;
     color:#000000;
-    margin-left: -140px;
-margin-top: -30px;
 
 }
 .text-primary{
@@ -7989,7 +7987,7 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
     font-weight:  LIGHT !important; 
  font-size: 15px;
  text-align: center;
- margin-left: -120px;
+
 
 }
 
@@ -8064,7 +8062,6 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
     font-family: "GILROY", sans-serif;
     font-weight: LIGHT;
     color: white;
-    margin-left: -150px;
         background: rgb(255,199,27);
 background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
   
