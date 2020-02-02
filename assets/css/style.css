@@ -863,6 +863,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     text-align: center;
     margin-bottom: 50px;
     bottom: 0;
+   /* height : min-content;*/
     height : min-content;
 
 }
