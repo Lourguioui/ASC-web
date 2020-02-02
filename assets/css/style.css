@@ -783,8 +783,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         opacity: 0.0;
     }
 }
-/*=======================================================
-    Objectifs style and responsiv
+/* =======================================================
+    Objectifs style and responsive
 ======================================================== */
 .objectif{
     height: 200px;
@@ -797,8 +797,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
     text-align: center;
     bottom : 0; 
-    height : min-content;
-    
+   height : min-content;    
 }
 .objectif:hover {
     box-shadow: 0 18px 14px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
@@ -824,17 +823,29 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 .objectif.obj-2{
     margin-top: 10px;
+  font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;   
 }
 .objectif.obj-3{
     margin-top: 20px;
+     font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
 }
 .objectif.obj-4{
     margin-top: 10px;
+     font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
     
 }
 .objectif.obj-5{
     margin-top: 10px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
+     font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
 }
 .objectif.animated-element-left{
     opacity: 0;
@@ -8082,4 +8093,18 @@ b{
      font-family : "GILROY", sans-serif !important;
     font-weight:  BOLD !important;
     color: black;
+}
+.anim_horiz{
+  position: relative;
+  animation-duration: 4s;
+  animation-delay: 2s;
+    animation-iteration-count: infinite;
+  animation-name: example;
+}
+@keyframes example {
+  0%   {  left:0px; right:0px;}
+  25%  { left:100px; right:0px;}
+  50%  { left:100px; right: 100px;}
+  75%  { left:0px; right:100px;}
+  100% {left:0px; right:0px;}
 }
