@@ -23,6 +23,11 @@
         var moveY = (e.pageY * -1 / 200);
         $(this).css('background-position', moveX + "px " + moveY + 'px');
     });
+       $('#speaker').mousemove(function(e){
+        var moveX = (e.pageX * -1 / 100);
+        var moveY = (e.pageY * -1 / 100);
+        $(this).css('background-position', moveX + "px " + moveY + 'px');
+    });
     /*==================== end background animation =========================*/
 
     /*========================= objectifs animation =========================*/
