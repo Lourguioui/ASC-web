@@ -52,7 +52,7 @@
 }
 .material-card h2 strong {
     font-weight: 400;
-    display: block;
+    display: inline;
     color: white;
     font-size: .8em;
 }
@@ -166,8 +166,10 @@
     transition: all 1.4s;
 }
 .material-card .mc-footer a {
-    display: block;
-    float: left;
+/*    display: block;
+*/
+    display: inline; 
+   float: left;
     position: relative;
     width: 52px;
     height: 52px;
