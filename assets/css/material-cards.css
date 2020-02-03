@@ -52,7 +52,7 @@
 }
 .material-card h2 strong {
     font-weight: 400;
-    display: block;
+    display: inline;
     color: white;
     font-size: .8em;
 }
@@ -166,8 +166,10 @@
     transition: all 1.4s;
 }
 .material-card .mc-footer a {
-    display: block;
-    float: left;
+/*    display: block;
+*/
+    display: inline; 
+   float: left;
     position: relative;
     width: 52px;
     height: 52px;
@@ -1392,5 +1394,158 @@ background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%
    background-color: rgba(255,199,27,0.45);
 }
 .material-card.form3.mc-active .mc-btn-action {
+    border-color: #e8eaf6;
+}
+/**********************************************************************/
+.material-card.form4 h2 {
+    background: rgb(29,190,209);
+    background: linear-gradient(90deg, rgba(29,190,209,1) 0%, rgba(127,223,163,1) 100%);
+}
+.material-card.form4 h2:after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form4 h2:before {
+    border-top-color: transparent;
+    border-right-color: #0aa072;
+    border-bottom-color:#0aa072;
+    border-left-color: transparent;
+}
+.material-card.form4.mc-active h2:before {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form4.mc-active h2:after {
+    border-top-color: #0aa072;
+    border-right-color:#0aa072;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form4 .mc-btn-action {
+    background-color:rgba(29,190,209,1);
+}
+.material-card.form4 .mc-btn-action:hover {
+    background-color: rgba(127,223,163,1);
+}
+.material-card.form4 .mc-footer h4 {
+    color: rgba(127,223,163,1);
+}
+.material-card.form4 .mc-footer a {
+    background-color: rgba(127,223,163,0.9);
+}
+.material-card.form4.mc-active .mc-content {
+    background-color: #f3e5f5;
+    background-color: rgba(29,190,209,0.3);
+}
+.material-card.form4.mc-active .mc-footer {
+    background-color:rgba(29,190,209,0.5);
+}
+.material-card.form4.mc-active .mc-btn-action {
+    border-color: #e8eaf6;
+}
+/**********************************************************************/
+.material-card.form5 h2 {
+    background: rgb(29,164,232);
+    background: linear-gradient(90deg, rgba(29,164,232,1) 0%, rgba(20,51,192,1) 100%);
+}
+.material-card.form5 h2:after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form5 h2:before {
+    border-top-color: transparent;
+    border-right-color:  rgba(20,51,192,1);
+    border-bottom-color: rgba(20,51,192,1) ;
+    border-left-color: transparent;
+}
+.material-card.form5.mc-active h2:before {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form5.mc-active h2:after {
+    border-top-color: rgba(20,51,192,1);
+    border-right-color: rgba(20,51,192,1) ;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form5 .mc-btn-action {
+    background-color:rgba(20,51,192,1);
+}
+.material-card.form5 .mc-btn-action:hover {
+    background-color:rgba(29,164,232,1);
+}
+.material-card.form5 .mc-footer h4 {
+    color: rgba(20,51,192,0.9);
+}
+.material-card.form5 .mc-footer a {
+    background-color:rgba(20,51,192,0.9);
+}
+.material-card.form5.mc-active .mc-content {
+    background-color: #f3e5f5;
+    background-color: rgba(29,164,232,0.3)  ;
+}
+.material-card.form5.mc-active .mc-footer {
+    background-color:rgba(29,164,232,0.5) ;
+}
+.material-card.form5.mc-active .mc-btn-action {
+    border-color: #e8eaf6;
+}
+/**********************************************************************/
+.material-card.form6 h2 {
+    background: rgb(249,169,205);
+    background: linear-gradient(90deg, #E589B7 0%, rgba(241,20,86,1) 100%);
+}
+.material-card.form6 h2:after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form6 h2:before {
+    border-top-color: transparent;
+    border-right-color:  rgba(241,20,86,1);
+    border-bottom-color:rgba(241,20,86,1) ;
+    border-left-color: transparent;
+}
+.material-card.form6.mc-active h2:before {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form6.mc-active h2:after {
+    border-top-color: rgba(241,20,86,1);
+    border-right-color: rgba(241,20,86,1) ;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form6 .mc-btn-action {
+    background-color:rgba(249,169,205,1);
+}
+.material-card.form6 .mc-btn-action:hover {
+    background-color: rgba(241,20,86,1);
+}
+.material-card.form6 .mc-footer h4 {
+    color:  rgba(241,20,86,1);
+}
+.material-card.form6 .mc-footer a {
+    background-color: rgba(241,20,86,0.9);
+}
+.material-card.form6.mc-active .mc-content {
+    background-color: #f3e5f5;
+    background-color:rgba(249,169,205,0.3)  ;
+}
+.material-card.form6.mc-active .mc-footer {
+    background-color:rgba(249,169,205,0.5);
+}
+.material-card.form6.mc-active .mc-btn-action {
     border-color: #e8eaf6;
 }

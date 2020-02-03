@@ -8097,11 +8097,20 @@ b{
 }
 .anim_horiz{
   position: relative;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 1s;
+    animation-iteration-count: 1;
+  animation-name: example;
+}
+/*-------------------------------------------------------------*/
+.anim_horiz2{
+  position: relative;
+  animation-duration: 6s;
+  animation-delay: 1s;
     animation-iteration-count: infinite;
   animation-name: example;
 }
+/*-------------------------------------------------------------*/
 @keyframes example {
   0%   {  left:0px; right:0px;}
   25%  { left:100px; right:0px;}
