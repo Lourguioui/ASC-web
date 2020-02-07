@@ -7745,8 +7745,8 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
     border-radius: 50%;
     text-align: center;
 /*    background: #fff;
-*/background: rgb(26,62,123);
-background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
+*/background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
     color: #fff;
     top: 50%;
     position: absolute;
@@ -7762,9 +7762,8 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
 }
 
 .slick-arrow:hover {
-   background: rgb(255,199,27);
-background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
-    color: #fff;
+    background-color:#ffffff;
+    color:rgba(23,59,120,1);
 }
 
 .slick-prev {
@@ -8139,3 +8138,11 @@ text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;
 background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
 color: #fff;
 }
+.active2:hover{
+    background: #f5f6f6;
+    color: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+}
+.linkpartner{
+    background-color: #000000;
+    color: #f5f6f6;
+     }
