@@ -1630,10 +1630,15 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .tabs-v2 .nav-link.active {
-    background: #ffffff;
+    background: rgb(26,62,123);
+background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
     color: #fff;
 }
-
+.tabs-v2 .nav-link.active:hover{
+    background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+    color: #fff;
+}
 .tabs-v3 .nav-link {
     background: #ecf5fe;
 }
@@ -7739,7 +7744,10 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
     height: 45px;
     border-radius: 50%;
     text-align: center;
-    background: #fff;
+/*    background: #fff;
+*/background: rgb(26,62,123);
+background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
+    color: #fff;
     top: 50%;
     position: absolute;
     -webkit-transform: translateY(-50%);
@@ -7754,7 +7762,8 @@ background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, 
 }
 
 .slick-arrow:hover {
-    background: #0081FF;
+   background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
     color: #fff;
 }
 
@@ -8123,4 +8132,10 @@ b{
 .text-tab{
 color: #f5f6f6;
 text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;
+}
+/*****************************************************/
+.active2{
+    background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+color: #fff;
 }
