@@ -1336,7 +1336,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .social a {
     width: 45px;
     height: 45px;
-    background: rgba(255, 255, 255, 0.1);
+background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
     display: block;
     text-align: center;
     color: #fff;
@@ -1346,6 +1347,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .social a:hover {
+     color: #062d66;
     background: #f5f6f6;
 }
 
@@ -6244,7 +6246,7 @@ h1 .text-primary{
     font-family : "GILROY", sans-serif !important;
     font-size:  52pt !important;
     font-weight:  BOLD !important;
-    color : #BA16BF !important;
+    color : rgba(255,199,27,1) !important;
 }
 #hero_section_title{
      font-family : "GILROY", sans-serif !important;
