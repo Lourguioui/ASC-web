@@ -58,9 +58,9 @@ h1{
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "GILROY", sans-serif;
-    color: #20335E;
+    color: black;
     line-height: 1.37em;
-    font-weight: 600;
+    font-weight: BOLD !important;
 }
 
 h1, .h1 {
@@ -783,8 +783,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         opacity: 0.0;
     }
 }
-/*=======================================================
-    Objectifs style and responsiv
+/* =======================================================
+    Objectifs style and responsive
 ======================================================== */
 .objectif{
     height: 200px;
@@ -797,8 +797,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
     text-align: center;
     bottom : 0; 
-    height : min-content;
-    
+   height : min-content;    
 }
 .objectif:hover {
     box-shadow: 0 18px 14px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
@@ -824,17 +823,29 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 .objectif.obj-2{
     margin-top: 10px;
+  font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;   
 }
 .objectif.obj-3{
     margin-top: 20px;
+     font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
 }
 .objectif.obj-4{
     margin-top: 10px;
+     font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
     
 }
 .objectif.obj-5{
     margin-top: 10px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
+     font-family: "GILROY", sans-serif;
+    font-size: 30pt;
+    font-weight: lighter;
 }
 .objectif.animated-element-left{
     opacity: 0;
@@ -852,6 +863,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     text-align: center;
     margin-bottom: 50px;
     bottom: 0;
+   /* height : min-content;*/
     height : min-content;
 
 }
@@ -1122,13 +1134,17 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     margin-left: 15px;
 }
 
+
 .navbar-nav > .nav-item > .nav-link {
     color : white;
     text-transform: uppercase;
-    font-family: "Dosis", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
+   /* font-family: "Dosis", sans-serif;*/
+        font-family : "GILROY", sans-serif !important;
+    font-weight:  LIGHT !important;
+/*    font-weight: 600; */   
+ font-size: 15px;
 }
+
 
 .navbar-toggler {
     color: #fff;
@@ -1288,8 +1304,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .header-shadow {
-    -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
-    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+  /*  -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);
+    box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.5);*/
 }
 
 @media (max-width: 991px) {
@@ -1320,7 +1336,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .social a {
     width: 45px;
     height: 45px;
-    background: rgba(255, 255, 255, 0.1);
+background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
     display: block;
     text-align: center;
     color: #fff;
@@ -1330,7 +1347,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .social a:hover {
-    background: #339aff;
+     color: #062d66;
+    background: #f5f6f6;
 }
 
 .social.social-white a {
@@ -1408,8 +1426,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 .btn-primary {
     background: linear-gradient(to right, rgba(255,19,41,1), rgba(26,62,123,1));
-    -webkit-box-shadow: 0 5px 40px 0 rgba(226, 17,233, 0.5);
-    box-shadow: 0 5px 40px 0 rgba(226, 17,233, 0.5);
+    -webkit-box-shadow: 0 5px 40px 0 rgba(226, 17,233, 0.3);
+    box-shadow: 0 5px 40px 0 rgba(226, 17,233, 0.3);
     color: #fff;
     border: none;
     transition: 0.7s !important;
@@ -1614,10 +1632,15 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .tabs-v2 .nav-link.active {
-    background: #0081FF;
+    background: rgb(26,62,123);
+background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
     color: #fff;
 }
-
+.tabs-v2 .nav-link.active:hover{
+    background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+    color: #fff;
+}
 .tabs-v3 .nav-link {
     background: #ecf5fe;
 }
@@ -1629,7 +1652,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .tabs-v3 .nav-link.active {
-    background: #1A3E7B;
+    background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
     border-color: transparent;
     color: #fff;
 }
@@ -2933,7 +2957,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .u-fw-600 {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .u-fw-700 {
@@ -6222,7 +6246,14 @@ h1 .text-primary{
     font-family : "GILROY", sans-serif !important;
     font-size:  52pt !important;
     font-weight:  BOLD !important;
-    color : #BA16BF !important;
+    color : rgba(255,199,27,1) !important;
+}
+#hero_section_title{
+     font-family : "GILROY", sans-serif !important;
+    font-weight:  BOLD !important;
+    color : #000000 !important;
+    color:#000000;
+
 }
 .text-primary{
     color : #BA16BF !important;
@@ -6276,8 +6307,9 @@ h1 .text-primary{
 }
 
 .bg-gray-v2 {
-    background: #1A3E7B;
-    
+/*background: #ff0000;*/    
+background: rgb(26,62,123);
+background: linear-gradient(90deg, rgba(26,62,123,1) 0%, rgba(23,59,120,1) 64%, rgba(6,45,102,1) 100%);
 }
 
 .bg-gray-v3 {
@@ -7715,7 +7747,10 @@ h1 .text-primary{
     height: 45px;
     border-radius: 50%;
     text-align: center;
-    background: #fff;
+/*    background: #fff;
+*/background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+    color: #fff;
     top: 50%;
     position: absolute;
     -webkit-transform: translateY(-50%);
@@ -7730,8 +7765,8 @@ h1 .text-primary{
 }
 
 .slick-arrow:hover {
-    background: #0081FF;
-    color: #fff;
+    background-color:#ffffff;
+    color:rgba(23,59,120,1);
 }
 
 .slick-prev {
@@ -7964,16 +7999,20 @@ h1 .text-primary{
 }
 
 .startup-hero {
-    background: url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.png);
+/*    background: url(../img/startup/bg-hero-2.png), url(../img/startup/bg-hero-3.png);*/
+ background:  url(../img/background/rockets2.png),url(../img/background/bg.png);
     background-size:cover, cover;
     background-position:center,  center;
     background-repeat :no-repeat, no-repeat;
    
 }
 #hero-tit{
-    font-family: "GILROY", sans-serif;
-    font-size:  42 pt;
-    font-weight:  lighter;
+    font-family : "GILROY", sans-serif !important;
+    font-weight:  LIGHT !important; 
+ font-size: 15px;
+ text-align: center;
+
+
 }
 
 .startup-statistics {
@@ -8039,3 +8078,74 @@ h1 .text-primary{
     background: url(../img/event/bg-2.jpg) no-repeat;
     background-size: cover;
 }
+/**************************************/
+#logo_style{
+  width: auto; height: auto; padding: 0px;
+}
+.button_style{
+    font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: white;
+        background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+  
+}
+.button_style2{
+    font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: white;
+    background: rgb(191,18,106);
+background: linear-gradient(90deg, rgba(191,18,106,1) 0%, rgba(81,20,157,1) 100%);
+}
+.text{
+font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: rgba(0,0,0,0.9);
+}
+b{
+     font-family : "GILROY", sans-serif !important;
+    font-weight:  BOLD !important;
+    color: black;
+}
+.anim_horiz{
+  position: relative;
+  animation-duration: 2s;
+  animation-delay: 1s;
+    animation-iteration-count: 1;
+  animation-name: example;
+}
+/*-------------------------------------------------------------*/
+.anim_horiz2{
+  position: relative;
+  animation-duration: 6s;
+  animation-delay: 1s;
+    animation-iteration-count: infinite;
+  animation-name: example;
+}
+/*-------------------------------------------------------------*/
+@keyframes example {
+  0%   {  left:0px; right:0px;}
+  25%  { left:100px; right:0px;}
+  50%  { left:100px; right: 100px;}
+  75%  { left:0px; right:100px;}
+  100% {left:0px; right:0px;}
+}
+/****************************************************************/
+.text-tab{
+color: #f5f6f6;
+text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;
+}
+/*****************************************************/
+.active2{
+    background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+color: #fff;
+}
+.active2:hover{
+    background: #f5f6f6;
+    color: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+}
+.linkpartner{
+    background-color: #000000;
+    color: #f5f6f6;
+     }

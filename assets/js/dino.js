@@ -14,13 +14,18 @@
     /* ============= backgroun d animation =====================*/
     // ==========================================================
     $('.startup-hero').mousemove(function(v){
-        var moveX = (v.pageX * -1/ 60);
-        var moveY = (v.pageY * -1 / 60); 
+        var moveX = (v.pageX * -1/ 2000);
+        var moveY = (v.pageY * -1 / 40); 
         $(this).css('background-position', moveX + 'px ' + moveY + 'px ' + ', center');
     });
     $('.animated-bg').mousemove(function(e){
-        var moveX = (e.pageX * -1 / 120);
-        var moveY = (e.pageY * -1 / 120);
+        var moveX = (e.pageX * -1 / 200);
+        var moveY = (e.pageY * -1 / 200);
+        $(this).css('background-position', moveX + "px " + moveY + 'px');
+    });
+       $('#speaker').mousemove(function(e){
+        var moveX = (e.pageX * -1 / 100);
+        var moveY = (e.pageY * -1 / 100);
         $(this).css('background-position', moveX + "px " + moveY + 'px');
     });
     /*==================== end background animation =========================*/

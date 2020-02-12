@@ -4,16 +4,20 @@
 <!-- Mirrored from envato.z-projects.net/html/dino/landing-startup.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Jan 2020 22:11:11 GMT -->
 
 <head>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true"> -->
+<!----------------------------------------------------------------------- -->
     <!-- Meta Tags -->
     <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="keywords" content="Dino | One Pages HTML Template">
-    <meta name="description" content="Dino | One Pages HTML Template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="keywords" content="ASC | Algeria Startup Challenge">
+    <meta name="description" content="ASC | Algeria Startup Challenge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/startup/logo-2.png">
     <!-- Title -->
-    <title>Dino | One Pages HTML Template</title>
+    <title>ASC | Algeria Startup Challenge </title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
     <!-- Icon Fonts -->
@@ -30,8 +34,9 @@
     <!-- CSS for the cards -->
     <link rel="stylesheet" type="text/css" href="./assets/css/material-cards.css">
     <!-- CSS & Javascript links for the slider-->
-
     <link rel="stylesheet" type="text/css" href="assets/css/style_slider.css">
+    
+   
 </head>
 
 <body id="top" class="dino-startup">
@@ -47,50 +52,13 @@
         </div>
     </div>
     <!-- End Page Preloader -->
-    <!-- Start Top Header -->
-    <header class="header-top py-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 mb-3 mb-md-0 text-center text-md-left">
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item mr-3">
-                            <span class="icon icon-Phone2 text-primary mr-1"></span> +1 888 888 8888
-                        </li>
-                        <li class="list-inline-item">
-                            <span class="icon icon-Mail text-primary mr-1"></span> <a
-                                href="mailto:info@yoursite.com">info@yoursite.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 mb-3 mb-md-0">
-                    <ul
-                        class="list-inline social social-rounded social-default social-sm mb-0 text-center text-md-right">
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- End Top Header -->
-    <!-- Start Header -->
     <div class="header header-shadow header-shrink sticky-top bg-gray-v2">
         <div class="container">
             <!-- Start Navigation -->
             <nav class="navbar navbar-expand-lg">
                 <!-- Start Logo -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/startup/logo.png" style="width: auto; height: auto; padding: 0px;" alt="">
+                <a class="navbar-brand" href="index.html" id="logo_style">
+                    <img src="assets/img/startup/logo.png" alt="">
                 </a>
                 <!-- End Logo -->
                 <!-- Start Mobile Button -->
@@ -105,25 +73,33 @@
                 <!-- Start Menu -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-
+                         <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="home">Home</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-scrollto="about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-scrollto="tematiques">Thématiques</a>
+                            <a class="nav-link" href="#" data-scrollto="objectives">Objectives</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-scrollto="principe">Principe</a>
+                            <a class="nav-link" href="#" data-scrollto="tematiques">Themes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-scrollto="speakers">Speakers</a>
+                            <a class="nav-link" href="#" data-scrollto="principe">Competition</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-scrollto="sponsors">Sponsors</a>
+                            <a class="nav-link" href="#" data-scrollto="speaker">Scientific committee</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-scrollto="pricing">Prix</a>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="first_edition">First edition</a>
                         </li>
+                       <!--  <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="pricing">Price</a>
+                        </li> -->
+                       <!--  <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="pricing">Pricing</a>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-scrollto="contact">Contact</a>
                         </li>
@@ -136,20 +112,40 @@
     </div>
     <!-- End Header -->
     <!-- Start Hero -->
-    <section class="u-py-md-250 u-flex-center startup-hero">
+    <section class="u-py-md-250 u-flex-center startup-hero" id="home">
 
-        <div class="container hero u-pt-40">
+        <div class="container hero u-pt-40" >
             <div class="row align-items-center">
-                <div class="col-lg-7 mb-5 mb-lg-0">
-                    <h1 class="display-4 u-fw-600">
-                        <span class="text-primary">Algeria Sturtup Challenge</span>
-                    </h1>
-                    <p class="u-fs-22 u-lh-1_8 my-4" id="hero-tit">
+                
+
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <!-- ------------------------------------------------------- -->      
+                 <div class="row" style="text-align: left;">
+                     <div class="col-lg-6 anim_horiz"> 
+                         <img src="assets/img/background/the.png">
+                     </div>
+                 </div><br>
+                    <!-- ------------------------------------------------------- -->
+                             <div class="row" style="text-align: left;">                             
+                                 <h1 class="display-4" id="hero_section_title">
+                        <span>Algeria Sta<strong style="color:white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;position:relative;left: 8px;">rtup</strong> Challenge</span>
+                                </h1>
+                          </div>
+                    <!-- ------------------------------------------------------- -->
+                      <div class="row" style="text-align:center;">
+                      <p class="u-fs-22 u-lh-1_8 my-4" id="hero-tit">
                         Startup, Innovation, Creativity...
                     </p>
-                    <a href="#" class="btn btn btn-rounded btn-primary  u-w-150 u-mt-15">
-                        Register
-                    </a>
+                    </div>
+                    <!-- ------------------------------------------------------- -->
+                 <div class="row" style="text-align: center;">
+                                   <div class="col-lg-2"></div>
+                                   <div class="col-lg-6">
+                          <a href="#" class="btn btn-rounded btn-outline btn-lg mb-2 button_style" >
+                        Register    
+                          </a>
+                    </div>
+
                 </div>
 
             </div>
@@ -161,47 +157,49 @@
         style="background:url(./assets/img/startup/bg.png); background-size: contain;background-position: center ; background-repeat : no-repeat;">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="h1">
-                        What is Algeria Sturtup Challenge?
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
-                    <p><b>Algeria Startup Challenge</b> est un programme qui a pour but de booster les porteurs des
-                        projets
-                        ayant des idées de startup-statistics.Solutions innovates visant à améliorer le quotidient du
-                        consomateur Algérien ainsi que l'économie collaborative ...</p>
-                    <a href="https://web.facebook.com/algeriastartupchallenge/" target="_blank"
-                        class="btn btn-primary btn-rounded mt-4"> <i class="fa fa-facebook"
-                            style="padding-right: 5px;"></i>Event page</a>
+
+                 <div class="col-lg-4 u-mt-70 text-center">
+                    <img src="assets/img/startup/logo-2.png" alt="Dino" style="margin-left: -45px;margin-top: -110px;">
                 </div>
-                <div class="col-12 u-mt-70 text-center">
-                    <img src="assets/img/startup/logo-2.png" alt="Dino">
+
+                <div class="col-lg-8 mx-auto ">
+                    <div class="anim_horiz2">
+                                                   <img src="assets/img/background/whatis.png" style="margin-left: -450px;margin-top: -120px;">
+                    </div>
+                    <h2 class="h1">
+                        Algeria Startup Challenge ?
+                    </h2><br>
+
+                    <p class="text"><b>Algeria Startup Challenge</b> is a program that aims to boost project leaders with startup ideas in the form of innovative solutions to improve the daily lives of Algerian consumers and the development of the collaborative economy.</p>
+                    <a href="https://web.facebook.com/algeriastartupchallenge/" target="_blank"
+                        class="btn btn-primary btn-rounded mt-4 button_style2"> <i class="fa fa-facebook"
+                            style="padding-right: 5px;"></i>Event page</a>                
                 </div>
             </div>
         </div>
     </section>
     <!-- End About -->
-    <!-- Start Objectifs -->
-    <section class="u-pb-10 objectifs animated-bg" style="background:url(./assets/img/startup/bg.png); background-size: contain;background-position: center ; background-repeat : repeat;">
+    <!-- Start Objectives -->
+    <section class="u-pb-10 objectifs animated-bg" style="background:url(./assets/img/startup/bg.png); background-size: contain;background-position: center ; background-repeat : repeat;" id="objectives">
         <div class="container">
             <div class="row text-center">
+           
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="h1">
-                        Objectifs du programme
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+                    <div class="anim_horiz2" style="position: relative;right: 25px;">
+                      <img src="assets/img/background/objectives.png">   
+                    </div>
                 </div>
             </div>
             <div class="row w-auto">
                 <div class="col-lg-8 objectif animated-element-left" >
                     <div class="row py-4">
-                        <div class="col-lg-4 obj-icon">
+                        <div class="col-lg-3 obj-icon">
                             <img src="./assets/img/startup/missile.png " alt="missile">
                         </div>
                         <div class="col-lg-8 obj-1">
                             <P>
-                                Dynamiser l'éco-système entrepreneurial dans le cadre de la valorisation des secteurs
-                                stratégique et d'avenir comme facteurs d'attractivité et d'innovation des startups.
+                                Boosting the entrepreneurial ecosystem within the framework of the valorisation of <br>strategic and future sectors as
+factors of attractiveness and innovation of startups.
                             </P>
                         </div>
                     </div>
@@ -210,13 +208,11 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-8 objectif animated-element-right">
                     <div class="row py-4">
-                        <div class="col-lg-4 obj-icon">
+                        <div class="col-lg-3 obj-icon">
                             <img src="./assets/img/startup/river.png" alt="pont">
                         </div>
-                        <div class="col-lg-8 obj-2">
-                            
-                               Créer un pont entre les établissement d'études supérieures<br/> et le monde professionnel .
-                            
+                        <div class="col-lg-8 obj-1">                           
+                            <P>Create a bridge between higher education institutions <br>and the professional world.  </P>
                         </div>
 
                     </div>
@@ -227,9 +223,7 @@
                             <img src="./assets/img/startup/lamp2.png"  class="rounded mx-auto d-block"  alt="pont">
                         </div>
                         <div class="col-lg-8 obj-3">
-                            
-                            Faciliter l'émergence d'une nouvelle génération d'entrepreneurs<br/> ouverte au monde et au développement technologique.
-                            
+                            <P> Facilitate the emergence of a new generation of entrepreneurs open to the world<br> and to technological development.  </P>
                         </div>
                     </div>
                 </div>
@@ -237,25 +231,25 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-8 objectif animated-element-right">
                     <div class="row">
-                        <div class="col-lg-4 obj-icon" >
+                        <div class="col-lg-3 obj-icon" >
                             <img src="./assets/img/startup/deal.png" class="rounded mx-auto d-block"  alt="pont">
                         </div>
                         <div class="col-lg-8 obj-4">
-                            
-                            Affirmer la volonté des entreprises à la concrètisation des projrts étudiants.
-                            
+                     <br/>
+                     <P>  Bringing together the different actors necessary to create an <br>ecosystem that benefits everyone.
+                     </P>
                         </div>
                     </div>
                 </div>
+                <!-- -------------------------------------------------- -->
                 <div class="col-lg-8 objectif animated-element-left">
                     <div class="row">
-                        <div class="col-lg-4 obj-icon"  >
+                        <div class="col-lg-3 obj-icon"  >
                             <img src="./assets/img/startup/loupe.png" class="rounded mx-auto d-block"  alt="pont">
                         </div>
                         <div class="col-lg-8 obj-5">
-                            
-                            Mettre les étudiants aux défis des problématique de<br/> recherche et développement des PME.
-                            
+                            <br/>
+                         <P> Putting project leaders to the challenges of the research and development problems of SMEs.  </P>
                         </div>
                     </div>
                 </div>
@@ -269,10 +263,9 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="h1">
-                        Thématiques
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+                    <div class="anim_horiz2" style="position: relative;right: 25px;">
+                     <img src="assets/img/background/themes.png">   
+                    </div>
                 </div>
             </div>
             <div class="row w-auto text-center thematiques">
@@ -281,7 +274,7 @@
                         <img src="./assets/img/startup/globe.png" class="mx-auto d-block"  alt="missile">
                     </div>
                     <h3 class="my-4">
-                        E-commerce & Fintech
+                        E-commerce and Fintech <br><br>
                     </h3>
                 </div>
 
@@ -294,7 +287,7 @@
                         <img src="./assets/img/startup/leaf.png" class="mx-auto d-block"  alt="missile">
                     </div>
                     <h3 class="my-4">
-                        L'éconimie verte
+                        Cricular economy and renewable energy
                     </h3>
 
                 </div>
@@ -305,7 +298,7 @@
                         <img src="./assets/img/startup/tourism.png" class="mx-auto d-block"  alt="missile">
                     </div>
                     <h3 class="my-4">
-                        Le tourisme
+                       Tourism
                     </h3>
 
                 </div>
@@ -321,7 +314,7 @@
                         <img src="./assets/img/startup/road.png" class="mx-auto d-block"  alt="missile">
                     </div>
                     <h3 class="my-4">
-                        L'amélioration de prestation du service public
+                        Improving the Presatation of public services
                     </h3>
 
                 </div>
@@ -331,9 +324,9 @@
 
                     <div class="col-lg-12 obj-icon">
                         <img src="./assets/img/startup/truck.png" class="mx-auto d-block"  alt="missile">
-                    </div>
+                    </div><br>
                     <h3 class="my-4">
-                        Logistiques, distribution et transport
+                        Logistics and distribution
                     </h3>
 
                 </div>
@@ -342,25 +335,16 @@
             </div>
         </div>
     </section>
-    <!----------------------------------------------------------------------------------------------------->
+     <!-- End Branding -->
 
-    <!-- END slider -->
-
-
-
-
-
-    
-    <!-- End Branding -->
-    <!-- Start Features -->
-    <section id="principe">
+       <section id="principe" style="background-image: url('assets/img/background/bg_comp.png');background-size: cover;background-position: center ; background-repeat :no-repeat">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="h1 text-capitalize">
-                         Principe de la compétition
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-30 mx-auto"></div>
+                  <div class="anim_horiz2" style="position: relative;right: 25px;">
+                     <img src="assets/img/background/principle.png">   
+                    </div>
+                    <div class="u-h-4 u-w-50 rounded mt-4 u-mb-30 mx-auto" style="color: white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;"></div>
                 </div>
                 <div class="col-12">
                     <ul class="nav nav-tabs justify-content-center tabs-v3 text-center u-ff-dosis u-fw-600 u-fs-20"
@@ -369,7 +353,6 @@
                             <a class="nav-link active p-4" data-toggle="tab" href="#tab1_1" role="tab">
                                 Phase
                                 <span class="u-fs-md-30 d-block mb-1">01</span>
-
                             </a>
                         </li>
                         <li class="nav-item mx-2">
@@ -387,21 +370,18 @@
                         <div class="tab-pane fade show active" id="tab1_1">
                             <div class="row u-mt-70 u-mb-20 align-items-center">
                                 <div class="col-lg-6 dino-feat">
-                                    <img src="assets/img/startup/Algeria.png" alt="Dino">
+                                    <img src="assets/img/background/Algeria_phase1.png" alt="Dino">
                                 </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h2 class="mb-4">
-                                        Phase préliminaire
-                                    </h2>
-                                    <!--<p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page when looking at its layout. The point of using Lorem Ipsum is
-                                        that it has a more-or-less normal distribution of letters, as opposed to using
-                                        ...</p>-->
-                                    <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Un programme a échelle national qui rassemble les porteurs des projets dans les quatres coins du pays.<br><br></li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i>L'organisation sera assuré par la communauté des clubs scientifiques, dans une optique d'organisation standardisée.<br><br></li>
+<!--                                 <div class="col-lg-1"></div>
+ -->                                <div class="col-lg-5 col-md-12">
+                                    <h2 class="h1" style="color:white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">
+                                        Preliminary stage
+                                    </h2><hr style="color:white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">
+                                        <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30 " style="color: rgba(255,255,255,0.8);">
+                                        <li><i class="fa fa-check text-tab mr-2"></i>A national program that brings together project leaders from across the country.<br><br></li>
+                                        <li><i class="fa fa-check text-tab mr-2"></i>10 to 15 projects will be pre-selected by the scientific committee in each wilaya, which will have to compete by
+presenting a pitch in order to seduce the jury and bring 3 projects to the finals.<br><br></li>
 
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Une journé sera dédiée aux pitches, et qui permettra aux meilleurs projets d'accéder à la phase finale.<br><br></li>
                                     </ul>
                                 </div>
                             </div>
@@ -409,54 +389,36 @@
                         <div class="tab-pane fade" id="tab1_2">
                             <div class="row u-mt-70 u-mb-20 align-items-center">
                                 <div class="col-lg-6 dino-feat mb-5">
-                                    <img src="assets/img/startup/Algeria-2.png" alt="Dino">
+                                    <img src="assets/img/background/Algeria_phase2.png" alt="Dino">
                                 </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h2 class="mb-4">
-                                        Phase finale
+                                 <div class="col-lg-6 col-md-12">
+                                    <h2 class="h1" style="color:white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">
+                                        Finale stage
                                     </h2>
-                                    <h3>
-                                        Day 1 :
+                                         <div class="row">
+                                          <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30" style="color: rgba(255,255,255,0.8);">
+                                      <h3 style="color:white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">
+                                        WorkshopDay :
                                     </h3>
-                                    <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Une conféraence portant sur les thémes d'actualité en entrepreuneuriat.<br><br></li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Une série de workshops sous forme d'atelier.<br><br><br></li>
+                                 <li><i class="fa fa-check text-tab mr-2"></i>A conference on the latest news on the entrepreneurial scene in the Algerian market.</li>
+                                        <li><i class="fa fa-check text-tab mr-2"></i>A series of workshops "the entrepreneur's must-have toolbox".</li>
+                                    </ul>
+                                        </div>
+                                         <div class="row"> 
+                                             <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30" style="color: rgba(255,255,255,0.8);">
+                                              <h3 style="color:white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">
+                                        PitchDay :
+                                    </h3>
+                                   
+                                        <li><i class="fa fa-check text-tab mr-2"></i>Opening conference and presentation of the different actors present. </li>
+                                        <li><i class="fa fa-check text-tab mr-2"></i>Exhibition and stands of the different organizers present.</li>
+                                        <li><i class="fa fa-check text-tab mr-2"></i>Pitching of the winning projects coming from all over the country in order to seduce the jury and win the grand prize in each category.</li>
+                                        <li><i class="fa fa-check text-tab mr-2"></i><b style="color: white;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">The result :</b> One winner in each category.</li><br><br>
+                                    </ul>
+                                         </div>
 
-                                    </ul>
-                                    <h3>
-                                        Day 2 :
-                                    </h3>
-                                    <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                        <li><i class="fa fa-check text-primary mr-2" style="color: #BA16BF"></i>Conférence d'ouverture et présentation des différent acteurs présents.<br> </li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Exposition et stands des différent organisateurs présents.<br></li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Pitchs des projets lauréats venant des quatres coins du pays afin de séduire le jury et remporter le grand prix de chaque catégorie.<br></li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i><b>Au résultat :</b> Un gagnant de chaque catégorie.</li>
-                                    </ul>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab1_3">
-                            <div class="row u-mt-70 u-mb-20 align-items-center">
-                                <div class="col-lg-6 dino-feat mb-5">
-                                    <img src="assets/img/startup/s-2.png" alt="Dino">
-                                </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h2 class="mb-4">
-                                        It's as easy as 1 2 3 to get start
-                                    </h2>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page when looking at its layout. The point of using Lorem Ipsum is
-                                        that it has a more-or-less normal distribution of letters, as opposed to using
-                                        ...</p>
-                                    <ul class="list-unstyled u-fw-600 u-lh-2 u-mt-30">
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Professional and easy to use
-                                            software</li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Setup and installations takes
-                                            five minutes</li>
-                                        <li><i class="fa fa-check text-primary mr-2"></i>Perfect for any device with
-                                            pixel perfect design</li>
-                                    </ul>
-                                </div>
+                     
                             </div>
                         </div>
                     </div>
@@ -464,18 +426,17 @@
             </div>
         </div>
     </section>
-    
     <!-- End Features -->
 
-    <!-- Start Works -->
-    <section id="work" class="u-pt-40 u-pb-20 animated-bg" style="background:url(./assets/img/startup/bg.png); background-size: contain;background-position: center ; background-repeat : repeat;">
+
+       <section id="work" class="u-pt-40 u-pb-20 animated-bg" style="background:url(./assets/img/background/); background-size: cover;background-position: center ; background-repeat : repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="h1">
-                        Phase éliminatoire
+                         Preliminary stage
                     </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 mx-auto"></div>
+                    <!-- <div class="u-h-4 u-w-50 bg-primary rounded mt-4 mx-auto"></div> -->
                 </div>
             </div>
             <div class="row">
@@ -483,7 +444,7 @@
                     <ul class="nav nav-tabs justify-content-center tabs-v2 box-shadow-v2" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#tab2_1" role="tab" aria-expanded="true">
-                                Alger
+                                Algiers
                             </a>
                         </li>
                         <li class="nav-item">
@@ -502,8 +463,8 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#tab2_4" role="tab" aria-expanded="false">
-                                Ouargla
+                            <a class="nav-link" data-toggle="tab" href="#tab2_5" role="tab" aria-expanded="false">
+                                Ouergla
                             </a>
                         </li>
                     </ul>
@@ -513,176 +474,166 @@
                         <div class="tab-pane fade show active" id="tab2_1" role="tabpanel">
                             <div data-init="carousel" data-slick-margin="15"
                                  data-slick='{
-							"slidesToShow":2,
-							"slidesToScroll":1,
-							"arrows":true,
-							"prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
-							"nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
-							"responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
+                            "slidesToShow":2,
+                            "slidesToScroll":1,
+                            "arrows":true,
+                            "prevArrow":"<div class=\"slick-prev colors box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
+                            "nextArrow":"<div class=\"slick-next colors box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
+                            "responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
                                 <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
+                                    <img src="assets/img/background/hec.png">
                                     <div class="py-4">
                                         <h3>
-                                            <a href="#">Your awesome title here</a>
+                                            <a href="#">Alumni HEC Algiers</a> -
+                                  <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/AlumniAlg/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-instagram" href="https://instagram.com/alumni.hec.alger?igshid=unvdgrtfvnc5" style="color: black;" target="_blank"></a>
+                                      
                                         </h3>
-                                        <p>Branding Design</p>
+                                        <p>Scientific Club of the School of Higher Commercial Studies</p>
+                                         
                                     </div>
+                                                      
                                 </div>
+
+                                
+                              <!-- ------------------------------------ -->
                                 <div class="card">
-                                    <img src="assets/img/startup/s-4.jpg" alt="Dino">
+                                    <img src="assets/img/background/cse.png">
                                     <div class="py-4">
                                         <h3>
-                                            <a href="#">Your awesome title here</a>
+                                            <a href="#">CSE</a> - 
+                                             <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/club.scientifique.esi/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-instagram" href="https://instagram.com/cse.club?igshid=1sxhl08950tq8" style="color: black;" target="_blank"></a>
                                         </h3>
-                                        <p>SaaS Marketing</p>
+                                        <p>Scientific Club of the National School of Computer Science of Algiers</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>Business Marketing</p>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="tab2_2" role="tabpanel">
+<!--          ********************************************************************************************************-->         
+               <div class="tab-pane fade" id="tab2_2" role="tabpanel">
                             <div data-init="carousel" data-slick-margin="15"
                                  data-slick='{
-							"slidesToShow":2,
-							"slidesToScroll":1,
-							"arrows":true,
-							"prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
-							"nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
-							"responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
+                            "slidesToShow":2,
+                            "slidesToScroll":1,
+                            "arrows":true,
+                            "prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
+                            "nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
+                            "responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
                                 <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
+                                    <img src="assets/img/background/muhandis.png">
                                     <div class="py-4">
                                         <h3>
-                                            <a href="#">Your awesome title here</a>
+                                            <a href="#">Muhandis</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/muhandisclub/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-instagram" href="#" style="color: black;"></a>
                                         </h3>
-                                        <p>Branding Design</p>
+                                        <p>Scientific Club of the EcoleNationale Polytechnique of Oran</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-4.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>SaaS Marketing</p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>Business Marketing</p>
-                                    </div>
-                                </div>
+                           
                             </div>
                         </div>
+        <!--    ********************************************************************************************************-->         
+
                         <div class="tab-pane fade" id="tab2_3" role="tabpanel">
                             <div data-init="carousel" data-slick-margin="15"
                                  data-slick='{
-							"slidesToShow":2,
-							"slidesToScroll":1,
-							"arrows":true,
-							"prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
-							"nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
-							"responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
+                            "slidesToShow":2,
+                            "slidesToScroll":1,
+                            "arrows":true,
+                            "prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
+                            "nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
+                            "responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
                                 <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
+                                    <img src="assets/img/background/cirtec.png">
                                     <div class="py-4">
                                         <h3>
-                                            <a href="#">Your awesome title here</a>
+                                            <a href="#">Cirtec</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/Cirtec.enpc/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-instagram" href="https://www.instagram.com/cirtec_enpc/" style="color: black;" target="_blank"></a>
                                         </h3>
-                                        <p>Branding Design</p>
+                                        <p>Scientific Club of the National Polytechnic School of Constantine</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-4.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>SaaS Marketing</p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>Business Marketing</p>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
+           <!--    ********************************************************************************************************-->         
                         <div class="tab-pane fade" id="tab2_4" role="tabpanel">
                             <div data-init="carousel" data-slick-margin="15"
                                  data-slick='{
-							"slidesToShow":2,
-							"slidesToScroll":1,
-							"arrows":true,
-							"prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
-							"nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
-							"responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
+                            "slidesToShow":2,
+                            "slidesToScroll":1,
+                            "arrows":true,
+                            "prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
+                            "nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
+                            "responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
                                 <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
+                                    <img src="assets/img/background/eliteclub.png">
                                     <div class="py-4">
                                         <h3>
-                                            <a href="#">Your awesome title here</a>
+                                            <a href="#">Elite Club</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/elite16000/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-instagram" href="#" style="color: black;"></a>
                                         </h3>
-                                        <p>Branding Design</p>
+                                        <p>Scientific Club of the University of Béchar</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-4.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>SaaS Marketing</p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="assets/img/startup/s-3.jpg" alt="Dino">
-                                    <div class="py-4">
-                                        <h3>
-                                            <a href="#">Your awesome title here</a>
-                                        </h3>
-                                        <p>Business Marketing</p>
-                                    </div>
-                                </div>
+                             
+                                
                             </div>
                         </div>
+             <!--    ********************************************************************************************************-->         
+                                     <div class="tab-pane fade" id="tab2_5" role="tabpanel">
+                            <div data-init="carousel" data-slick-margin="15"
+                                 data-slick='{
+                            "slidesToShow":2,
+                            "slidesToScroll":1,
+                            "arrows":true,
+                            "prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
+                            "nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
+                            "responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
+                                <div class="card">
+                                    <img src="assets/img/background/pepiniere_d_entreprises.jpg">
+                                    <div class="py-4">
+                                        <h3>
+                                            <a href="#">Pépinaire d’entreprises</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/incubateur.ouargla/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-instagram" href="#" style="color: black;" ></a>
+                                        </h3>
+                                        <p>The business incubator of Ouargla</p>
+                                    </div>
+                                </div>
+                             
+                                
+                            </div>
+                        </div>
+             <!--    ********************************************************************************************************-->         
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Works -->
-
-
     <!-- Start Team -->
 
-    <section id="speakers" class="u-pb-60 startup-speakers"
-             style="background:url(./assets/img/startup/speakers_bg.png); background-size: contain;background-position: center ; background-repeat : no-repeat;">
+    <section class="u-pb-60" id="speaker" style="background:url(./assets/img/startup/bg.png); background-size: contain;background-position: center ; background-repeat : no-repeat;">
         <div class="container">
             <div class="row">
+
                 <div class="col-12 text-center">
-                    <h2 class="h1">
-                        Speakers
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-20 mx-auto"></div>
+                     <div class="h1">
+                      Scientific committee
+                    </div>
+                    <div class="u-h-4 u-w-50 rounded mt-4 u-mb-70 mx-auto" style="background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);"></div>
                 </div>
             </div>
+            <br>
+            <br>
 
             <div class="row  active-with-click">
 
@@ -690,18 +641,18 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <article class="material-card form6">
                         <h2>
-                            <span>Sixth speaker</span>
+                            <span>Hichem BABA AHMED</span>
                             <strong>
                                 <i class="fa fa-fw fa-user"></i>
-                                CEO
+                              Founder of BRIM
                             </strong>
                         </h2>
                         <div class="mc-content">
                             <div class="img-container">
-                                <img class="img-responsive" src="assets/img/startup/speaker1.png">
+                                <img class="img-responsive" src="assets/img/person/hichem.jpg">
                             </div>
                             <div class="mc-description">
-                                He has been nominated for three Academy Awards for his work in the films Primal Fear, American History X and Birdman. He also starred in other roles ...
+                               His bio : max 1 ligne description.
                             </div>
                         </div>
                         <a class="mc-btn-action">
@@ -711,32 +662,30 @@
                             <h4>
                                 Social
                             </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/hichem.babaahmed"></a>
+                            <a class="fa fa-fw fa-twitter" href="https://mobile.twitter.com/hichambabaahmed?lang=fr"></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/hichembabaahmed"></a>
                             <a class="fa fa-fw fa-google-plus"></a>
                         </div>
                     </article>
                 </div>
-                <!-- End Card 1 -->
+                <!--_________________________card2____________________________________________-->              
 
-
-                <!-- Card two -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <article class="material-card form2">
                         <h2>
-                            <span>Second speaker</span>
+                            <span>ADEL AMALOU</span>
                             <strong>
                                 <i class="fa fa-fw fa-user"></i>
-                                CEO
+                                Co-founder at IncubMe
                             </strong>
                         </h2>
                         <div class="mc-content">
                             <div class="img-container">
-                                <img class="img-responsive" src="assets/img/startup/speaker1.png">
+                                <img class="img-responsive" src="assets/img/person/adel.jpg">
                             </div>
                             <div class="mc-description">
-                                He has been nominated for three Academy Awards for his work in the films Primal Fear, American History X and Birdman. He also starred in other roles ...
+                               His description ..
                             </div>
                         </div>
                         <a class="mc-btn-action">
@@ -746,34 +695,35 @@
                             <h4>
                                 Social
                             </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/adel.amalou"></a>
+                            <a class="fa fa-fw fa-twitter" href="https://mobile.twitter.com/2366c25918594d2"></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/adel-amalou-32b121125"></a>
                             <a class="fa fa-fw fa-google-plus"></a>
                         </div>
                     </article>
 
 
-                    <!-- End Card two -->
 
                 </div>
+                <!--_________________________card3____________________________________________-->              
 
-                <!-- Card three -->
+                             
+
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <article class="material-card form3">
                         <h2>
-                            <span>Third speaker</span>
+                            <span>Meriem Benslama</span>
                             <strong>
                                 <i class="fa fa-fw fa-user"></i>
-                                CEO
+                        Director at The ACSE
                             </strong>
                         </h2>
                         <div class="mc-content">
                             <div class="img-container">
-                                <img class="img-responsive" src="assets/img/startup/speaker1.png">
+                                <img class="img-responsive" src="assets/img/person/meriem.jpg">
                             </div>
                             <div class="mc-description">
-                                He has been nominated for three Academy Awards for his work in the films Primal Fear, American History X and Birdman. He also starred in other roles ...
+                               Her bio ...
                             </div>
                         </div>
                         <a class="mc-btn-action">
@@ -783,32 +733,32 @@
                             <h4>
                                 Social
                             </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/meriem.benslama.7"></a>
+                            <a class="fa fa-fw fa-twitter" href=""></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/meriem-benslama-2a376432"></a>
                             <a class="fa fa-fw fa-google-plus"></a>
                         </div>
                     </article>
                 </div>
 
-                <!-- End Card 3 -->
-                <!-- Card 4 -->
+                     <!--_________________________card4____________________________________________-->              
+
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <article class="material-card form1">
                         <h2>
-                            <span>First speaker</span>
+                            <span>Omar Berkouk</span>
                             <strong>
                                 <i class="fa fa-fw fa-user"></i>
-                                CEO
+                             Admin at SELECTAIR
                             </strong>
                         </h2>
                         <div class="mc-content">
                             <div class="img-container">
-                                <img class="img-responsive" src="assets/img/startup/speaker1.png">
+                                <img class="img-responsive" src="assets/img/person/omar.jpg">
                             </div>
                             <div class="mc-description">
-                                She has been nominated for three Academy Awards for her work in the films Primal Fear, American History X and Birdman. She also starred in other roles ...
+                                His bio ...
                             </div>
                         </div>
                         <a class="mc-btn-action">
@@ -818,29 +768,31 @@
                             <h4>
                                 Social
                             </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/omar.berkouk.7"></a>
+                            <a class="fa fa-fw fa-twitter" href=""></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/omar-berkouk-8aa6a410"></a>
                             <a class="fa fa-fw fa-google-plus"></a>
                         </div>
                     </article>
                 </div>
-                <!--"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" -->
+                     <!--_________________________card5____________________________________________-->       
+
+      
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <article class="material-card form5">
                         <h2>
-                            <span>Fifth speaker</span>
+                            <span>Karim Brouri</span>
                             <strong>
                                 <i class="fa fa-fw fa-user"></i>
-                                CEO
+                            Founder-CEO Brenco
                             </strong>
                         </h2>
                         <div class="mc-content">
                             <div class="img-container">
-                                <img class="img-responsive" src="assets/img/startup/speaker1.png">
+                                <img class="img-responsive" src="assets/img/person/karim.jpg">
                             </div>
                             <div class="mc-description">
-                                He has been nominated for three Academy Awards for his work in the films Primal Fear, American History X and Birdman. He also starred in other roles ...
+                               His bio ...
                             </div>
                         </div>
                         <a class="mc-btn-action">
@@ -850,31 +802,32 @@
                             <h4>
                                 Social
                             </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
-                            <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/brouri"></a>
+                            <a class="fa fa-fw fa-twitter" href="https://mobile.twitter.com/Mr_Brouri"></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/kbrouri"></a>
                             <a class="fa fa-fw fa-google-plus"></a>
                         </div>
                     </article>
 
 
                 </div>
-    <!-- ========================================================== -->
+          <!--_________________________card6____________________________________________-->       
+
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <article class="material-card form4">
                         <h2>
-                            <span>Fourth speaker</span>
+                            <span>Hamid Bakli</span>
                             <strong>
                                 <i class="fa fa-fw fa-user"></i>
-                                CEO
+                               Founder-CEO CapcoWork
                             </strong>
                         </h2>
                         <div class="mc-content">
                             <div class="img-container">
-                                <img class="img-responsive" src="assets/img/startup/speaker1.png">
+                                <img class="img-responsive" src="assets/img/person/hamid.png">
                             </div>
                             <div class="mc-description">
-                                She has been nominated for three Academy Awards for her work in the films Primal Fear, American History X and Birdman. She also starred in other roles ...
+                               His bio ...
                             </div>
                         </div>
                         <a class="mc-btn-action">
@@ -884,25 +837,14 @@
                             <h4>
                                 Social
                             </h4>
-                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/bakli1"></a>
                             <a class="fa fa-fw fa-twitter"></a>
-                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/hamidbakli"></a>
                             <a class="fa fa-fw fa-google-plus"></a>
                         </div>
                     </article>
                 </div>
-                <!-- End Card 4-->
-
-
-                <!-- Card 5 -->
-
-
-                <!-- Card 6 -->
-
-
-                <!-- End Card 6 -->
-
-
+               
             </div>
         </div>
 
@@ -963,450 +905,142 @@
         });
     </script>
 
-    <!-- End speakers -->
-  <!--   <section id="speakers" class="startup-team animated-bg ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="h1">
-                        Our Speakers
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-20 mx-auto"></div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 cards">
-                    <div class="card text-center show-onHover-parent">
-                        <div class="u-pos-rel">
-                            <img class="w-100" src="assets/img/person/Hichem_BABA.jfif" alt="Dino">
-                            <div class="show-onHover u-pos-abs-center u-w-100p">
-                                <ul class="list-inline social social-white social-sm mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://dz.linkedin.com/in/hichembabaahmed"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="py-4">
-                            <h4>Hichem BABA AHMED</h4>
-                            <p class="mb-0">
-                                Fondateur du BRIM
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 cards">
-                    <div class="card text-center show-onHover-parent">
-                        <div class="u-pos-rel">
-                            <img class="w-100" src="assets/img/person/Adel_Hamalou.jfif" alt="Dino">
-                            <div class="show-onHover u-pos-abs-center u-w-100p">
-                                <ul class="list-inline social social-white social-sm mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://dz.linkedin.com/in/adel-amalou-32b121125"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="py-4">
-                            <h4>ADEL<br> AMALOU</h4>
-                            <p class="mb-0">
-                                co-founder chez IncubMe
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 cards">
-                    <div class="card text-center show-onHover-parent">
-                        <div class="u-pos-rel">
-                            <img class="w-100" src="assets/img/person/meriem.jfif" alt="Dino">
-                            <div class="show-onHover u-pos-abs-center u-w-100p">
-                                <ul class="list-inline social social-white social-sm mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://fr.linkedin.com/in/meriem-benslama-2a376432"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="py-4">
-                            <h4>Meriem Benslama</h4>
-                            <p class="mb-0">
-                                Directrice chez The Algerian Center for Social
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 cards">
-                    <div class="card text-center show-onHover-parent">
-                        <div class="u-pos-rel">
-                            <img class="w-100" src="assets/img/person/oumar.jfif" alt="Dino">
-                            <div class="show-onHover u-pos-abs-center u-w-100p">
-                                <ul class="list-inline social social-white social-sm mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://dz.linkedin.com/in/omar-berkouk-8aa6a410"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="py-4">
-                            <h4>Omar Berkouk</h4>
-                            <p class="mb-0">
-                                Administrateur chez <br>SELECTAIR
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3 col-md-6 mt-4 cards">
-                    <div class="card text-center show-onHover-parent">
-                        <div class="u-pos-rel">
-                            <img class="w-100" src="assets/img/person/karim.jfif" alt="Dino">
-                            <div class="show-onHover u-pos-abs-center u-w-100p">
-                                <ul class="list-inline social social-white social-sm mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://dz.linkedin.com/in/kbrouri?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="py-4">
-                            <h4>Karim Brouri</h4>
-                            <p class="mb-0">
-                                Fondateur-CEO <br>Brenco
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 cards">
-                    <div class="card text-center show-onHover-parent">
-                        <div class="u-pos-rel">
-                            <img class="w-100" src="assets/img/person/hamid.jpg" alt="Dino" style="height: 250px">
-                            <div class="show-onHover u-pos-abs-center u-w-100p">
-                                <ul class="list-inline social social-white social-sm mt-4">
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://dz.linkedin.com/in/hamidbakli"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="py-4">
-                            <h4>Hamid Bakli</h4>
-                            <p class="mb-0">
-                                Fondateur-CEO <br>CapcoWork
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <!-- End Team -->
-    <!-- Start Advantages
-    <section class="startup-adv">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5 mt-md-0">
-                    <span class="icon icon-MessageLeft u-fs-60 text-primary"></span>
-                    <h3 class="my-4">
-                        Excellent Support
-                    </h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout ...</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5 mt-md-0">
-                    <span class="icon icon-Users u-fs-60 text-primary"></span>
-                    <h3 class="my-4">
-                        Awesome Team
-                    </h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout ...</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5 mt-md-0 dino-seo-col">
-                    <span class="icon icon-Dollars u-fs-60 text-primary"></span>
-                    <h3 class="my-4">
-                        Affordable Price
-                    </h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout ...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-     End Advantages -->
-    <!-- Start Reviews
-    <section id="reviews" class="startup-reviews u-pb-40">
+         
+    <!-- start  partners -->
+    <section id="sponsors" style="background:url(./assets/img/background/bg_spons.png); background-size: cover;background-position: center ; background-repeat : no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="h1 text-white">
-                        What Clients Say
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-white rounded mt-4 u-mb-20 mx-auto"></div>
-                </div>
-            </div>
-            <div data-init="carousel"
-                data-slick='{ "slidesToShow":1, "dots":true, "arrows":false, "dotsClass":"slick-dots dots-white text-center"}'
-                data-slick-margin="30">
-                <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                    <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/startup/0.jfif" alt="">
-                    <h4>Hichem BABA AHMED</h4>
-                    <p class="text-muted">
-                        Fondateur du BRIM
-                    </p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors ...</p>
-                </div>
-                <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                    <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/person/2.jpg" alt="">
-                    <h4>John Anderson</h4>
-                    <p class="text-muted">
-                        Marketing Manager
-                    </p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors ...</p>
-                </div>
-                <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                    <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/person/3.jpg" alt="">
-                    <h4>David Case</h4>
-                    <p class="text-muted">
-                        Graphic Designer
-                    </p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors ...</p>
-                </div>
-                <div class="p-5 rounded bg-white text-center box-shadow-v2 my-4">
-                    <img class="rounded-circle mx-auto mb-4 u-w-100" src="assets/img/person/3.jpg" alt="">
-                    <h4>David Case</h4>
-                    <p class="text-muted">
-                        Graphic Designer
-                    </p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors ...</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-     End Reviews -->
-    <!-- Start Clients
-    <section class="u-py-60 bg-gray-v2 dino-seo-clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-md-flex justify-content-between text-center">
-                    <div class="p-3">
-                        <img src="assets/img/partner/micosoft.png" alt="Dino">
-                    </div>
-                    <div class="p-3">
-                        <img src="assets/img/partner/envato.png" alt="Dino">
-                    </div>
-                    <div class="p-3">
-                        <img src="assets/img/partner/dribbble.png" alt="Dino">
-                    </div>
-                    <div class="p-3">
-                        <img src="assets/img/partner/google.png" alt="Dino">
-                    </div>
-                    <div class="p-3">
-                        <img src="assets/img/partner/micosoft.png" alt="Dino">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     End Clients -->
-    <!-- start sponsoring -->
-    <section id="partners" class="startup-team animated-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="h1">
+                    <h2 class="h1" style="text-align: center;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;color: white;">
                         Our Partners
                     </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-20 mx-auto"></div>
-                </div>
+<br>                </div>
                 <div class="col-lg-12">
-                    <img src="assets/img/startup/logo-capcowork.png" alt="Capcowork" class="mx-auto d-block">
+      <div class="row">
+                <div class="col-lg-7 mx-auto mt-5">
+                    <ul class="nav nav-tabs justify-content-center tabs-v2 box-shadow-v2" role="tablist">
+                      
+                        <li class="nav-item">
+                            <a class="nav-link active2" data-toggle="tab" href="#tab2_5" role="tab" aria-expanded="false">
+                              Check-out our partners !
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-10 mx-auto mt-5">
+                    <div class="tab-content tab__slider">
+                        <div class="tab-pane fade show active" id="tab2_6" role="tabpanel">
+                            <div data-init="carousel" data-slick-margin="15"
+                                 data-slick='{
+                            "slidesToShow":2,
+                            "slidesToScroll":1,
+                            "arrows":true,
+                            "prevArrow":"<div class=\"slick-prev box-shadow-v1\"><i class=\"fa fa-angle-left\"></i></div>",
+                            "nextArrow":"<div class=\"slick-next box-shadow-v1\"><i class=\"fa fa-angle-right\"></i></div>",
+                            "responsive": [{"breakpoint":1024, "settings":{"arrows":false, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}, {"breakpoint":700, "settings":{"arrows":false, "slidesToShow":1, "dots":true, "dotsClass":"slick-dots text-center mt-4"}}]}'>
+                         
+                                <div class="card" style="text-align: center;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;">
+                                    <img src="assets/img/background/acse.png">
+                                    <div class="py-4">
+                                        <h3>
+                                            <a href="#">ACSE</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/AlgerianCenterForSocialEntrepreneurship/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-globe" href="http://www.acsedz.com/?fbclid=IwAR01_lScAjIx5nBlt__s3OW2uoDrOJtgGybeXYtirNRpUD4m3jybH58wWSM" style="color: black;" target="_blank"></a>
+                                        </h3>
+                                        <p>The Algerian Center for Social Entrepreneurship<br></p>
+                                    </div>
+              
+                                </div>
+
+                                
+                              <!-- ------------------------------------ -->
+                                <div class="card" style="text-align: center;">
+                                    <img src="assets/img/background/satim.png">
+                                    <div class="py-4">
+                                        <h3>
+                                            <a href="#">SATIM</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="#" style="color: black;"></a>  
+                                  <a class="fa fa-fw fa-globe" href="https://www.satim.dz/" style="color: black;" target="_blank"></a>
+                                        </h3>
+                                        <p>INTERBANK TRANSACTION AUTOMATION AND ELECTRONIC BANKING COMPANY</p>
+                                    </div>
+                                </div>
+
+                                <!-- ------------------------------------ -->
+                                <div class="card" style="text-align: center;">
+                                    <img src="assets/img/background/incub.png">
+                                    <div class="py- 4">
+                                        <h3>
+                                            <a href="#">IncubMe</a> - 
+                                            <a class="fa fa-fw fa-facebook" href="https://www.facebook.com/IncubMeDz/" style="color: black;" target="_blank"></a>  
+                                  <a class="fa fa-fw fa-globe" href="https://incubme.com/?fbclid=IwAR2ZuACLoEwlFqnXE7yM7HxdomQulr858x1MZRDWATj91Rv-K4kOtPFkM6E" style="color: black;" target="_blank"></a>
+                                        </h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+     
+             <!--    ********************************************************************************************************-->         
+
+                    </div>
+                </div>
+            </div>
+                    
                 </div>
             </div>
         </div>
     </section>
     <!-- End sponsoring -->
     <!-- Start partners -->
-    <section id="sponsors" class="startup-team animated-bg">
+    <section id="sponsors" class="startup-team">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="h1">
-                        Our Sponsors
+                        Powered by 
                     </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-20 mx-auto"></div>
+<div class="u-h-4 u-w-50 rounded mt-4 u-mb-70 mx-auto" style="background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);"></div>
                 </div>
                 <div class="col-lg-12">
+                     <div class="col-lg-12 objectif animated-element-right">
+                    <div class="row">
+                        <div class="col-lg-5" >
 
+                            <img src="assets/img/background/capco.png">
+                        </div>
+                        <div class="col-lg-7 obj-4">
+                     <br/>
+                     <P style="text-align: left;"> CapCoWork is an incubator dedicated to the creation of an ecosystem.<br>
+Innovative entrepreneurial company whose dynamic is based on the promotion of and the coaching of Algerian youth with
+the support of the local economic actors.<br>Its mission is to :
+ <ul style="text-align: left;font-size: 16px;">
+     <li>
+        Participate in the emergence of an ecosystem favorable to the development of innovation while encouraging the
+exchange of good practice. local level, regional and international. 
+     </li>
+      <li>
+         Creating spaces for meeting and exchange between young people
+project leaders, companies, public authorities, universities and
+Entrepreneurs
+     </li>
+ </ul>
+                     </P>
+                        </div>
+                    </div>
+                </div>
+                    
+                
                 </div>
             </div>
         </div>
     </section>
     <!-- End partners -->
-    <!-- Start Pricing -->
 
-    <section id="pricing" class="u-pt-30">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="h1">
-
-                        prix
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-20 mx-auto"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
-                    <div class="bg-white box-shadow-v2 rounded py-5">
-                        <img src="assets/img/svg/plane-up.svg" class="u-h-90" alt="Dino">
-                        <h4 class="u-mb-35 u-mt-15">
-                            Startup
-                        </h4>
-                        <hr class="m-0">
-                        <ul class="list-unstyled u-py-30 u-lh-2">
-                            <li><strong>Unlimited</strong> searchable message</li>
-                            <li><strong>Unlimited</strong> apps and service</li>
-                            <li><strong>20GB</strong> file storage per team</li>
-                            <li><strong>100GB</strong> Monthly Bandwidth</li>
-                        </ul>
-                        <hr class="m-0">
-                        <h2 class="u-fs-60 u-fw-600 u-my-20">
-                            <sup class="u-fs-20">$</sup>14
-                        </h2>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
-                    <div class="bg-white box-shadow-v2 rounded py-5">
-                        <img src="assets/img/svg/phone-book.svg" class="u-h-90" alt="Dino">
-                        <h4 class="u-mb-35 u-mt-15">
-                            Professional
-                        </h4>
-                        <hr class="m-0">
-                        <ul class="list-unstyled u-py-30 u-lh-2">
-                            <li><strong>Unlimited</strong> searchable message</li>
-                            <li><strong>Unlimited</strong> apps and service</li>
-                            <li><strong>50GB</strong> file storage per team</li>
-                            <li><strong>500GB</strong> Monthly Bandwidth</li>
-                        </ul>
-                        <hr class="m-0">
-                        <h2 class="u-fs-60 u-fw-600 u-my-20 text-primary">
-                            <sup class="u-fs-20">$</sup>49
-                        </h2>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4 dino-seo-col">
-                    <div class="bg-white box-shadow-v2 rounded py-5">
-                        <img src="assets/img/svg/dollar-bag.svg" class="u-h-90" alt="Dino">
-                        <h4 class="u-mb-35 u-mt-15">
-                            Business
-                        </h4>
-                        <hr class="m-0">
-                        <ul class="list-unstyled u-py-30 u-lh-2">
-                            <li><strong>Unlimited</strong> searchable message</li>
-                            <li><strong>Unlimited</strong> apps and service</li>
-                            <li><strong>100GB</strong> file storage per team</li>
-                            <li><strong>1000GB</strong> Monthly Bandwidth</li>
-                        </ul>
-                        <hr class="m-0">
-                        <h2 class="u-fs-60 u-fw-600 u-my-20">
-                            <sup class="u-fs-20">$</sup>99
-                        </h2>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Pricing -->
-    <!-- Start Statistics -->
-    <section class="u-py-30 startup-statistics">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-3 col-md-6 u-my-20 text-white">
-                    <h4 class="mb-0 u-fs-60 text-pink">
-                        5000+
-                    </h4>
-                    <p class="u-fs-20">
-                        Projects
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6 u-my-20 text-white">
-                    <h4 class="mb-0 u-fs-60 text-pink">
-                        8000+
-                    </h4>
-                    <p class="u-fs-20">
-                        Solutions
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6 u-my-20 text-white">
-                    <h4 class="mb-0 u-fs-60 text-pink">
-                        200+
-                    </h4>
-                    <p class="u-fs-20">
-                        Countries
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6 u-my-20 text-white">
-                    <h4 class="mb-0 u-fs-60 text-pink">
-                        10M+
-                    </h4>
-                    <p class="u-fs-20">
-                        Customers
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Statistics -->
     <!-- Start slider -->
     <section id="first_edition" class="u-pb-60 about"
              style="background:url(./assets/img/startup/bg-about.png); background-size: contain;background-position: center ; background-repeat : no-repeat;">
@@ -1415,9 +1049,10 @@
             <div class="row text-center">
                 <div class="col-lg-12 mx-auto">
                     <h2 class="h1">
-                        Photos de la première édition
+                        First edition's pictures
                     </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+                    <div class="u-h-4 u-w-50 rounded mt-4 u-mb-70 mx-auto" style="background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);"></div>
                     <!--Slider start -->
                     <div id="jssor_1"
                          style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:480px;overflow:hidden;visibility:hidden;background-color:#24262e;">
@@ -1458,8 +1093,8 @@
                                 <img data-u="thumb" src="assets/img/person/7.png" />
                             </div>
                             <div>
-                                <img data-u="image" src="assets/img/person/8.jpg" />
-                                <img data-u="thumb" src="assets/img/person/8.jpg" />
+                                <img data-u="image" src="assets/img/person/8.png" />
+                                <img data-u="thumb" src="assets/img/person/8.png" />
                             </div>
 
                         </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web
@@ -1514,48 +1149,42 @@
     <!-- End Contact -->
     <!-- Start Footer -->
     <footer class="footer-startup">
-        <section class="bg-gray-v2">
+        <section class="bg-gray-v2" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
                         <img src="assets/img/startup/logo.png" alt="Dino">
-                        <p class="u-my-40" style="color : white">
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout ...
-                        </p>
-                        <form class="form-inline">
-                            <div class="input-group box-shadow-v1 u-rounded-50 bg-white u-of-hidden">
-
-                            </div>
-                        </form>
+                        
                     </div>
                     <div class="col-lg-2 col-md-6 ml-auto mb-5 mb-lg-0">
                         <h4 style="color: white">Useful Links</h4>
-                        <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
-                        <ul class="list-unstyled liste-links u-lh-2">
+                        <div class="u-h-4 u-w-50 rounded mt-4 u-mb-70 mx-auto anim_horiz2" style="background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);"></div>
+<!--                         <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
+ -->                        <ul class="list-unstyled liste-links u-lh-2">
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Pricing Plans</a></li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Our News</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 ml-auto mb-5 mb-lg-0">
                         <h4 style="color: white">Contact Info</h4>
-                        <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
-                        <ul class="list-unstyled liste-links">
+<div class="u-h-4 u-w-50 rounded mt-4 u-mb-70 mx-auto anim_horiz2" style="background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);"></div>
+<!--                         <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
+ -->                        <ul class="list-unstyled liste-links">
                             <li class="mb-2">
-                                <span class="icon icon-Phone2 text-primary mr-2"></span> +213 797069697
+                                <span class="icon icon-Phone2 mr-2"  style="text-align: center;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;color: white;"></span> phone number
                             </li>
                             <li class="mb-2">
-                                <span class="icon icon-Mail text-primary mr-2"></span> <a
-                                    href="mailto:info@yoursite.com">iz_lourguioui@]esi.dz</a>
+                                <span class="icon icon-Mail mr-2"  style="text-align: center;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;color: white;"></span> <a
+                                    href="mailto:info@yoursite.com">Mail</a>
                             </li>
                             <li class="mb-2">
-                                <span class="icon icon-Pointer text-primary mr-2"></span> Alger, Alger, Algérie
+                                <span class="icon icon-Pointer mr-2"  style="text-align: center;text-indent: 1em;text-shadow: rgba(255,255,255,0.6) 1px 0 10px;color: white;"></span> Algiers, Alger, Algérie
                             </li>
                         </ul>
-                        <ul class="list-inline social social-rounded social-white mt-4">
+                        <ul class="list-inline social social-rounded mt-4">
                             <li class="list-inline-item">
                                 <a href="https://web.facebook.com/algeriastartupchallenge/"><i class="fa fa-facebook"></i></a>
                             </li>
