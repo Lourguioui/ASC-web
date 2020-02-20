@@ -8097,6 +8097,18 @@ background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%
     background: rgb(191,18,106);
 background: linear-gradient(90deg, rgba(191,18,106,1) 0%, rgba(81,20,157,1) 100%);
 }
+.button-style3{
+    font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: white;
+    width : 100%;
+    background: linear-gradient(to right , rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+    transition: 1s;
+}
+.button-style3:hover{
+    color : black;
+    background: white;
+}
 .text{
 font-family: "GILROY", sans-serif;
     font-weight: LIGHT;
