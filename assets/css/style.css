@@ -8109,6 +8109,21 @@ background: linear-gradient(90deg, rgba(191,18,106,1) 0%, rgba(81,20,157,1) 100%
     color : black;
     background: white;
 }
+.button-style4{
+    font-family: "GILROY", sans-serif;
+    font-weight: LIGHT;
+    color: white;
+    -webkit-box-shadow: 0 5px 40px 0 rgba(255,18,74,0.4);
+    box-shadow: 0 5px 40px 0 rgba(255,18,74,0.4);
+    width : 100%;
+    background: linear-gradient(to right , rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+    transition: 0.7s;
+}
+.button-style4:hover{
+    color: white !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .text{
 font-family: "GILROY", sans-serif;
     font-weight: LIGHT;
