@@ -1401,6 +1401,22 @@ background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%
     background: rgb(29,190,209);
     background: linear-gradient(90deg, rgba(29,190,209,1) 0%, rgba(127,223,163,1) 100%);
 }
+.material-card.form7 h2 {
+    background: rgb(255,199,27);
+background: linear-gradient(90deg, rgba(255,199,27,1) 0%, rgba(255,18,74,1) 100%);
+}
+.material-card.form7 h2:after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.material-card.form7 h2:before {
+    border-top-color: transparent;
+    border-right-color: rgba(255,18,74,1);
+    border-bottom-color: rgba(255,18,74,1);
+    border-left-color: transparent;
+}
 .material-card.form4 h2:after {
     border-top-color: transparent;
     border-right-color: transparent;
