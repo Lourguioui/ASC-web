@@ -9,7 +9,7 @@
     'use strict';
     // Preloader
     $(function () {
-        $("#loading").fadeOut(500);
+        $("#loading").fadeOut(200);
     });
     /* ============= backgroun d animation =====================*/
     // ==========================================================
