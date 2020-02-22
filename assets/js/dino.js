@@ -8,7 +8,7 @@
 (function ($) {
     'use strict';
     // Preloader
-    $(window).on("load", function () {
+    $(function () {
         $("#loading").fadeOut(500);
     });
     /* ============= backgroun d animation =====================*/
