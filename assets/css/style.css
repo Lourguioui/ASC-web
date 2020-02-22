@@ -911,6 +911,17 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .them{
 
 }
+/*================================== Sponsors ====================================*/
+
+@media only screen and (max-width : 992px){
+    .sponsor{
+        margin-top : 25px;
+        margin-bottom: 25px;
+    }
+    .sponsor>img{
+        padding : 0px;
+    }
+}
 /*=======================================================
   02. Start Hamburger
 ========================================================*/
